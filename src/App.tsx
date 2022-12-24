@@ -9,14 +9,16 @@ import Nav from "./components/nav/Nav";
 
 import logo from './logo.svg';
 import './App.css';
+import Projects from "./components/projects/Projects";
 
 function App() {
     return (
         <div className="App">
             <Header/>
-            <About/>
             <Nav/>
+            <About/>
             <Experience/>
+            <Projects/>
             <Contact/>
             <Footer/>
         </div>
