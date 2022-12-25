@@ -80,13 +80,12 @@ img {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
     .container {
         width: var(--container-width-md);
     }
 
-    .section {
-        margin-top: 6rem;
+    section {
     }
 }
 
@@ -95,8 +94,9 @@ img {
         width: var(--container-width-md);
     }
 
-    .section {
-        margin-top: 6rem;
+    section {
+        margin-left: 6rem;
+        margin-right: 6rem;
     }
 }
 
@@ -105,8 +105,9 @@ img {
         width: var(--container-width-sm);
     }
 
-    .section {
-        margin-top: 2rem;
+    section {
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
 
