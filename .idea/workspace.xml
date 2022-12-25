@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/education.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +131,7 @@
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="3075000" />
       <workItem from="1671909042261" duration="6869000" />
-      <workItem from="1671919910752" duration="37496000" />
+      <workItem from="1671919910752" duration="37655000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic styles, created header component">
       <created>1671914124841</created>
@@ -178,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672001121087</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added skills box template in education">
+      <created>1672003412233</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672003412233</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +196,7 @@
     <MESSAGE value="Finalised home section and refined sections" />
     <MESSAGE value="Added scripts to deploy site" />
     <MESSAGE value="Finalised boxes in education section, ready for content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalised boxes in education section, ready for content" />
+    <MESSAGE value="Added skills box template in education" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added skills box template in education" />
   </component>
 </project>
