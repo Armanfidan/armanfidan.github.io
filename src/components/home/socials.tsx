@@ -1,7 +1,7 @@
 import React from 'react';
 import {BsLinkedin, BsGithub} from 'react-icons/bs'
 
-function HeaderSocials() {
+function Socials() {
     return (
         <div className="header__socials">
             <a href="https://www.linkedin.com/in/arman-fidanoglu-86117595/"><BsLinkedin/></a>
@@ -10,4 +10,4 @@ function HeaderSocials() {
     );
 }
 
-export default HeaderSocials;
+export default Socials;

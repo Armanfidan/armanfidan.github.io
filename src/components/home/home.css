@@ -34,11 +34,22 @@ header {
     background: var(--colour-primary);
 }
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
+/*!* MEDIA QUERIES *!*/
+/*@media screen and (max-width: 1024px) {*/
+/*    header {*/
+/*        height: 68vh;*/
+/*    }*/
+/*}*/
+
+.about__me-image {
+    width: 40%;
+    position: relative;
+    left: 30%;
+    object-fit: cover;
+    height: 50%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -47,6 +58,14 @@ header {
     }
 
     .header__socials {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        padding-top: 6rem;
+        left: 46%;
+    }
+
+    .header__socials::after {
         display: none;
     }
 }
