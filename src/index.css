@@ -68,6 +68,10 @@ a:hover {
     box-shadow: none;
 }
 
+ul.a {
+    list-style-type: circle;
+}
+
 .btn-primary {
     background: var(--colour-primary);
     color: var(--colour-bg);
