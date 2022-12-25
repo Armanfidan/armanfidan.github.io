@@ -1,0 +1,54 @@
+.education__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem
+}
+
+.education__card {
+    border-radius: 2.5rem;
+    display: grid;
+    padding: 6rem 0 6rem 0;
+    grid-template-columns: 0.7fr 1.3fr;
+    text-align: left;
+    backdrop-filter: blur(40px);
+    background-color: rgba(44, 44, 108, 0.7);
+    mask: linear-gradient(
+        to right,
+                rgba(0, 0, 0, 0) 0%,
+                rgba(0, 0, 0, 0.8) 20%,
+                rgba(0, 0, 0, 0.99) 30%,
+                rgba(0, 0, 0, 1) 32%,
+                rgba(0, 0, 0, 1) 120%
+    );
+    -webkit-transition: border-radius 0.3s, background-color 0.3s;
+}
+
+.education__card:hover {
+    border-radius: 4.5rem;
+    /*translate: -10%;*/
+    background-color: rgba(44, 44, 108, 0.9);
+    -webkit-transition: border-radius 0.3s, background-color 0.3s;
+}
+
+#imperial_card {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5e7d286efe638310b936a175/1596923885443-TABNOQYHK1HALB0XO3TK/Main_Entrance_and_Sign%2C_Imperial_College_London%2C_Exhibition_Road_in_spring.jpg?format=1000w');
+}
+#msgsu_card {
+    background-image: url('https://msgsu.edu.tr/wp-content/uploads/2022/02/08_Konservatuvar-2.png');
+}
+#enka_card {
+    background-image: url('https://www.kindpng.com/picc/m/180-1803105_enka-schools-logo-pantone-yeni-02-enka-schools.png');
+    background-size: 30%;
+}
+
+.education__card_bg {
+    background-position: left;
+    background-attachment: revert;
+    border-radius: 3rem;
+    -webkit-transition: border-radius 0.3s;
+}
+
+.education__card_bg:hover {
+    border-radius: 5rem;
+    -webkit-transition: border-radius 0.3s;
+}

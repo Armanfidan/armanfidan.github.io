@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/education/education.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/About.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/Experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/experience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/CTA.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/CTA.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderSocials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/socials.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/me.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/Education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/education/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +68,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
     "ts.external.directory.path": "/Users/arfi/Documents/armanfidan.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -112,7 +107,7 @@
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="3075000" />
       <workItem from="1671909042261" duration="6869000" />
-      <workItem from="1671919910752" duration="8825000" />
+      <workItem from="1671919910752" duration="25440000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic styles, created header component">
       <created>1671914124841</created>
@@ -128,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671922764343</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created placeholders for experience and projects sections, built site for testing">
+      <created>1671968988915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671968988915</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +140,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added basic styles, created header component" />
     <MESSAGE value="Created nav component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created nav component" />
+    <MESSAGE value="Created placeholders for experience and projects sections, built site for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created placeholders for experience and projects sections, built site for testing" />
   </component>
 </project>

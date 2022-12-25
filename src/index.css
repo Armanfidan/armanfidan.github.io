@@ -1,135 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
 
 body {
-  margin: 0;
-  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;*/
-  font-family: 'Hanken Grotesk', sans-serif;
-  background: var(--colour-bg);
-  color: white;
-  line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: var(--colour-bg);
+    color: white;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
-  width: var(--container-width-lg);
-  margin: 0 auto;
+    width: var(--container-width-lg);
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 h1 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 section {
-  margin-top: 8rem;
+    margin: 3rem 15% 8rem 15%;
 }
 
 section > h2, section > h5 {
-  text-align: center;
-  color: var(--colour-light);
+    text-align: center;
+    color: var(--colour-light);
 }
 
 section > h2 {
-  color: var(--colour-primary);
-  margin-bottom: 3rem;
+    color: var(--colour-primary);
+    margin-bottom: 3rem;
 }
 
 a {
-  color: var(--colour-primary);
-  transition: var(--transition);
+    color: var(--colour-primary);
+    transition: var(--transition);
 }
 
 a:hover {
-  color: white;
+    color: white;
 }
 
 .btn {
-  width: max-content;
-  display: inline-block;
-  color: var(--colour-primary);
-  padding: 0.75rem 1.2rem;
-  border-radius: 0.5rem;
-  border: 1px solid var(--colour-primary);
-  transition: var(--transition);
+    width: max-content;
+    display: inline-block;
+    color: var(--colour-primary);
+    background: var(--colour-bg);
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    box-shadow: 0 0 8px 1px rgba(142, 166, 255, 0.5);
 }
 
 .btn:hover {
-  background: white;
-  color: var(--colour-bg);
-  border-color: transparent;
+    background: var(--colour-primary);
+    color: var(--colour-bg);
+    border-color: transparent;
+    box-shadow: none;
 }
 
 .btn-primary {
-  background: var(--colour-primary);
-  color: var(--colour-bg);
+    background: var(--colour-primary);
+    color: var(--colour-bg);
 }
 
 img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
+@media screen and (max-width: 1400px) {
+    .container {
+        width: var(--container-width-md);
+    }
 
-  .section {
-    margin-top: 6rem;
-  }
+    .section {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    .section {
+        margin-top: 6rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
+    .container {
+        width: var(--container-width-sm);
+    }
 
-  .section {
-    margin-top: 2rem;
-  }
+    .section {
+        margin-top: 2rem;
+    }
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 :root {
-  --colour-bg: #1f1f38;
-  --colour-bg-variant: #2c2c6c;
-  --colour-primary: #4db5ff;
-  --colour-primary-variant: #0069a8;
-  --colour-light: #dcdcdc;
+    --colour-bg: #1f1f38;
+    --colour-bg-variant: #2c2c6c;
+    --colour-primary: rgb(142, 166, 255);
+    --colour-primary-variant: #6780ff;
+    --colour-light: #dcdcdc;
 
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
 
-  --transition: all 400ms ease;
+    --transition: all 500ms ease;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
