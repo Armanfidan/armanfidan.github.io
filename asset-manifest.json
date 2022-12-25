@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5777702d.css",
+    "main.css": "/static/css/main.a2702a62.css",
     "main.js": "/static/js/main.ccb3ec86.js",
     "static/js/787.08eb8396.chunk.js": "/static/js/787.08eb8396.chunk.js",
     "static/media/me.jpg": "/static/media/me.c4a5b2992b8dd1a2c632.jpg",
     "static/media/CV_Arman_Fidanoglu_October_2022.pdf": "/static/media/CV_Arman_Fidanoglu_October_2022.6b3e583c4a403c8e97b7.pdf",
     "index.html": "/index.html",
-    "main.5777702d.css.map": "/static/css/main.5777702d.css.map",
+    "main.a2702a62.css.map": "/static/css/main.a2702a62.css.map",
     "main.ccb3ec86.js.map": "/static/js/main.ccb3ec86.js.map",
     "787.08eb8396.chunk.js.map": "/static/js/787.08eb8396.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5777702d.css",
+    "static/css/main.a2702a62.css",
     "static/js/main.ccb3ec86.js"
   ]
 }
