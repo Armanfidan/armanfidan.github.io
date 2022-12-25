@@ -1,7 +1,7 @@
 .education__cards {
     display: flex;
     flex-direction: column;
-    gap: 1.8rem
+    gap: 2rem
 }
 
 .education__card {
@@ -20,14 +20,14 @@
                 rgba(0, 0, 0, 1) 32%,
                 rgba(0, 0, 0, 1) 120%
     );
-    -webkit-transition: border-radius 0.3s, background-color 0.3s;
+    transition: all 0.3s;
 }
 
 .education__card:hover {
     border-radius: 4.5rem;
     /*translate: -10%;*/
     background-color: rgba(44, 44, 108, 0.9);
-    -webkit-transition: border-radius 0.3s, background-color 0.3s;
+    transition: all 0.3s;
 }
 
 #imperial_card {
@@ -45,10 +45,11 @@
     background-position: left;
     background-attachment: revert;
     border-radius: 3rem;
-    -webkit-transition: border-radius 0.3s;
+    transition: all 0.3s;
+    box-shadow: 0 0 50px 5px #0a0a18;
 }
 
 .education__card_bg:hover {
     border-radius: 5rem;
-    -webkit-transition: border-radius 0.3s;
+    transition: all 0.3s;
 }

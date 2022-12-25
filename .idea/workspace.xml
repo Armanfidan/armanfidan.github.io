@@ -6,14 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/me.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/Education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/education/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/education.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="deploy" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="gh-pages -d build" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -94,6 +104,7 @@
     <list>
       <item itemvalue="npm.start" />
       <item itemvalue="npm.build" />
+      <item itemvalue="Shell Script.deploy" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -107,7 +118,7 @@
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="3075000" />
       <workItem from="1671909042261" duration="6869000" />
-      <workItem from="1671919910752" duration="25440000" />
+      <workItem from="1671919910752" duration="26305000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic styles, created header component">
       <created>1671914124841</created>
@@ -130,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671968988915</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finalised home section and refined sections">
+      <created>1671986434369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671986434369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +159,7 @@
     <MESSAGE value="Added basic styles, created header component" />
     <MESSAGE value="Created nav component" />
     <MESSAGE value="Created placeholders for experience and projects sections, built site for testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created placeholders for experience and projects sections, built site for testing" />
+    <MESSAGE value="Finalised home section and refined sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalised home section and refined sections" />
   </component>
 </project>
