@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.67cc521c.css",
-    "main.js": "/static/js/main.2eb63bb1.js",
+    "main.css": "/static/css/main.def0a623.css",
+    "main.js": "/static/js/main.0a24b2fc.js",
     "static/js/787.08eb8396.chunk.js": "/static/js/787.08eb8396.chunk.js",
+    "static/media/snek.png": "/static/media/snek.c77afcfea71b0d1e9f69.png",
     "static/media/me.jpg": "/static/media/me.c4a5b2992b8dd1a2c632.jpg",
     "static/media/CV_Arman_Fidanoglu_October_2022.pdf": "/static/media/CV_Arman_Fidanoglu_October_2022.6b3e583c4a403c8e97b7.pdf",
+    "static/media/visuaid.jpeg": "/static/media/visuaid.60c321b7050ef81aaa0d.jpeg",
+    "static/media/malafatus.jpeg": "/static/media/malafatus.d0d1b5291bccffd97a50.jpeg",
+    "static/media/rover.jpg": "/static/media/rover.25f83bf8e757f93e5bd8.jpg",
     "index.html": "/index.html",
-    "main.67cc521c.css.map": "/static/css/main.67cc521c.css.map",
-    "main.2eb63bb1.js.map": "/static/js/main.2eb63bb1.js.map",
+    "main.def0a623.css.map": "/static/css/main.def0a623.css.map",
+    "main.0a24b2fc.js.map": "/static/js/main.0a24b2fc.js.map",
     "787.08eb8396.chunk.js.map": "/static/js/787.08eb8396.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67cc521c.css",
-    "static/js/main.2eb63bb1.js"
+    "static/css/main.def0a623.css",
+    "static/js/main.0a24b2fc.js"
   ]
 }
