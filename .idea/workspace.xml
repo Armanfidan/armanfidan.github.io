@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="fixed navigation bar z-index issue">
-      <change afterPath="$PROJECT_DIR$/src/components/education/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/education/collapse.ts" afterDir="false" />
+    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="Finalise">
+      <change afterPath="$PROJECT_DIR$/src/components/card/CollapsibleCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/education/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/CustomCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/Education.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/education/collapse.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/education/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/education.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,12 +67,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
     "ts.external.directory.path": "/Users/arfi/Documents/armanfidan.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/card" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="gh-pages -d build" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -137,7 +143,7 @@
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="3075000" />
       <workItem from="1671909042261" duration="6869000" />
-      <workItem from="1671919910752" duration="58327000" />
+      <workItem from="1671919910752" duration="68573000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic styles, created header component">
       <created>1671914124841</created>
@@ -202,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672003606644</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Education cards now have a variable length.">
+      <created>1672069632485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672069632485</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Switched EducationCard implementation to MUI, finalised card design">
+      <created>1672082709932</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672082709932</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +238,8 @@
     <MESSAGE value="Finalised boxes in education section, ready for content" />
     <MESSAGE value="Added skills box template in education" />
     <MESSAGE value="fixed navigation bar z-index issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed navigation bar z-index issue" />
+    <MESSAGE value="Education cards now have a variable length." />
+    <MESSAGE value="Switched EducationCard implementation to MUI, finalised card design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switched EducationCard implementation to MUI, finalised card design" />
   </component>
 </project>

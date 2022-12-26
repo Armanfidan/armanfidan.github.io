@@ -1,4 +1,4 @@
-import React, {FunctionComponent, useState, useEffect, useCallback} from 'react';
+import React, {FunctionComponent, useState, useEffect} from 'react';
 import {IoIosArrowDown} from "react-icons/io";
 
 type Props = {
@@ -8,7 +8,7 @@ type Props = {
     content: string;
 }
 
-const Card: FunctionComponent<Props> = (props) => {
+const CustomCard: FunctionComponent<Props> = (props) => {
     const [expanded, setExpanded] = useState(false)
     const [height, setHeight] = useState(0)
 
@@ -59,4 +59,4 @@ const Card: FunctionComponent<Props> = (props) => {
     );
 }
 
-export default Card;
+export default CustomCard;
