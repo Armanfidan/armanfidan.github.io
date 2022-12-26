@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "react-animate-height": "^3.1.0"
   }
 }
