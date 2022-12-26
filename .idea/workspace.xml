@@ -7,7 +7,8 @@
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/experience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,7 @@
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="3075000" />
       <workItem from="1671909042261" duration="6869000" />
-      <workItem from="1671919910752" duration="75468000" />
+      <workItem from="1671919910752" duration="76449000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic styles, created header component">
       <created>1671914124841</created>
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672094719676</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixed bug causing date to be misplaced on mobile devices">
+      <created>1672095420425</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672095420425</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +275,7 @@
     <MESSAGE value="Switched EducationCard implementation to MUI, finalised card design" />
     <MESSAGE value="Refactored EducationCard to be more generic, made subtitles optional" />
     <MESSAGE value="Refined education, experience and projects sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined education, experience and projects sections" />
+    <MESSAGE value="Fixed bug causing date to be misplaced on mobile devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug causing date to be misplaced on mobile devices" />
   </component>
 </project>

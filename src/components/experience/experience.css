@@ -6,13 +6,13 @@
 
 #cs_card {
     background-image: url('https://www.credit-suisse.com/media/www-root/plattform/office-locator/location-images/international-locations/uk_london_onecabotsquare_002.jpg');
-    background-position: -1300px 10%;
+    background-position: 160% 10%;
     background-size: 130%;
 }
 #imagination_card {
     background-image: url('https://hexus.net/media/uploaded/2017/7/256285b5-9ff1-4dda-a434-e3fb5cfd40f8.jpg');
-    background-position: -350px 15%;
-    background-size: 100%;
+    background-position: -200% 15%;
+    background-size: 80%;
 }
 
 #imperial_work_card {

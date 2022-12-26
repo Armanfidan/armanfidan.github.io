@@ -6,7 +6,7 @@
 
 #fyp_card {
     background-image: url("../../../src/assets/snek.png");
-    background-position: -200px 20%;
+    background-position: -120% 20%;
     background-size: 80%;
 }
 #hlp_card {
