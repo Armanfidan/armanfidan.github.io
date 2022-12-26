@@ -1,66 +1,31 @@
-.about__content {
-    /*margin: 2rem;*/
+.experience_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
-.about__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+#cs_card {
+    background-image: url('https://www.credit-suisse.com/media/www-root/plattform/office-locator/location-images/international-locations/uk_london_onecabotsquare_002.jpg');
+    background-position: -1300px 10%;
+    background-size: 130%;
+}
+#imagination_card {
+    background-image: url('https://hexus.net/media/uploaded/2017/7/256285b5-9ff1-4dda-a434-e3fb5cfd40f8.jpg');
+    background-position: -350px 15%;
+    background-size: 100%;
 }
 
-/*.about__card {*/
-/*    background: var(--colour-bg-variant);*/
-/*    border: 1px solid transparent;*/
-/*    border-radius: 1rem;*/
-/*    padding: 2rem;*/
-/*    text-align: center;*/
-/*    display: grid;*/
-/*    grid-template-columns: 0.2fr 1.8fr;*/
-/*}*/
-
-.about__card {
-    background: var(--colour-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 0.2fr 1.8fr;
+#imperial_work_card {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5e7d286efe638310b936a175/1596923885443-TABNOQYHK1HALB0XO3TK/Main_Entrance_and_Sign%2C_Imperial_College_London%2C_Exhibition_Road_in_spring.jpg?format=1000w');
 }
 
-.about__card:hover {
-    background: transparent;
-    border-color: var(--colour-primary);
-    cursor: default;
-}
-
-.about__icon {
-    color: var(--colour-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
-.about__card h5 {
-    font-size: 0.95rem;
-}
-
-.about__card small {
-    font-size: 0.7rem;
-    color: var(--colour-light);
-}
-
-.about__content p {
-    margin: 2rem 0 2.6rem;
-    color: var(--colour-light);
-}
-
-@media screen and (max-width: 1024px) {
-    .about__cards {
-        grid-template-columns: repeat(2, 1fr);
+/*!* MEDIA QUERIES *!*/
+@media screen and (max-width: 750px) {
+    .education__cards {
+        gap: 1.5rem
     }
-}
-@media screen and (max-width: 600px) {
-    .about__cards {
-        grid-template-columns: repeat(1, 1fr);
+
+    #cs_card, #imagination_card, #imperial_work_card {
+        background: none;
     }
 }

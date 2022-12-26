@@ -6,33 +6,27 @@ function Education() {
     return (
         <section id="education">
             <h2>Education</h2>
-            <div className="education__cards">
-                <CollapsibleCard id="imperial_card"
-                               title="Imperial College London"
-                               subtitle1="MEng Electrical and Electronic Engineering with Management"
-                               subtitle2="First-Class Degree - 78%">
-                    <div className="content" id={"imperial_card_content"}><small>We'll figure this out
-                        later.</small></div>
+            <div className="education_cards">
+                <CollapsibleCard
+                    id="imperial_card" title="Imperial College London" date="Graduated 2022"
+                    subtitle1="MEng Electrical and Electronic Engineering with Management"
+                    subtitle2="First-Class Degree - 78%">
+                    <small>- Key modules: ...
+                    </small>
                 </CollapsibleCard>
-                <CollapsibleCard id="msgsu_card"
-                               title="Mimar Sinan Fine Arts University - State Conservatory"
-                               subtitle1="Part-Time Classical Piano Diploma Programme"
-                               subtitle2="Distinction - 95%">
-                    <div className="content" id={"imperial_card_content"}><small>We'll figure this out
-                        later.</small></div>
+                <CollapsibleCard
+                    id="enka_card" title="Enka High School" date="Graduated 2018"
+                    subtitle1="International Baccalaureate Diploma" subtitle2="38/45 Overall">
+                    <small>We'll figure this out later.</small>
                 </CollapsibleCard>
-                <CollapsibleCard id="enka_card"
-                               title="Enka High School"
-                               subtitle1="International Baccalaureate Diploma"
-                               subtitle2="38/45 Overall">
-                    <div className="content" id={"imperial_card_content"}><small>We'll figure this out
-                        later.</small></div>
+                <CollapsibleCard
+                    id="msgsu_card" title="Mimar Sinan Fine Arts University - State Conservatory" date="Graduated 2017"
+                    subtitle1="Part-Time Classical Piano Diploma Programme" subtitle2="Distinction - 95%">
+                    <small>We'll figure this out later.</small>
                 </CollapsibleCard>
-                <CollapsibleCard id="skills_card"
-                               title="Skills"
-                               subtitle1="" subtitle2="">
-                    <div className="content" id={"imperial_card_content"}><small>We'll figure this out
-                        later.</small></div>
+                <CollapsibleCard
+                    id="skills_card" title="Skills" date="" subtitle1="" subtitle2="">
+                    <small>We'll figure this out later.</small>
                 </CollapsibleCard>
             </div>
         </section>

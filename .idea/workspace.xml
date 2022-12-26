@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="Finalise">
-      <change afterPath="$PROJECT_DIR$/src/components/card/CollapsibleCard.tsx" afterDir="false" />
+    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/malafatus.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/rover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/snek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/spot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/visuaid.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card/collapsible_card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/CustomCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/CollapsibleCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/CollapsibleCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/collapse.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/education/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/experience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -61,6 +67,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/arfi/Documents/armanfidan.github.io/src/assets",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -73,7 +80,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/components/card" />
     </key>
   </component>
@@ -143,7 +154,7 @@
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="3075000" />
       <workItem from="1671909042261" duration="6869000" />
-      <workItem from="1671919910752" duration="68573000" />
+      <workItem from="1671919910752" duration="74773000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic styles, created header component">
       <created>1671914124841</created>
@@ -222,11 +233,29 @@
       <option name="project" value="LOCAL" />
       <updated>1672082709932</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactored EducationCard to be more generic, made subtitles optional">
+      <created>1672088500479</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672088500479</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -240,6 +269,7 @@
     <MESSAGE value="fixed navigation bar z-index issue" />
     <MESSAGE value="Education cards now have a variable length." />
     <MESSAGE value="Switched EducationCard implementation to MUI, finalised card design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switched EducationCard implementation to MUI, finalised card design" />
+    <MESSAGE value="Refactored EducationCard to be more generic, made subtitles optional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored EducationCard to be more generic, made subtitles optional" />
   </component>
 </project>

@@ -1,48 +1,31 @@
 import React from 'react';
 import './experience.css';
-import {FaAward} from "react-icons/fa";
+import CollapsibleCard from "../card/CollapsibleCard";
 
 function Experience() {
     return (
         <section id="experience">
             <h2>Professional Experience</h2>
-            <div className="about__content">
-                <div className="about__cards">
-                    <article className="about__card">
-                        <FaAward className="about__icon"/>
-                        <div>
-                            <h5>Experience</h5>
-                            <small>1 year of software engineering experience</small>
-                        </div>
-                    </article>
-                    <article className="about__card">
-                        <FaAward className="about__icon"/>
-                        <h5>Experience</h5>
-                        <small>1 year of software engineering experience</small>
-                    </article>
-                    <article className="about__card">
-                        <FaAward className="about__icon"/>
-                        <h5>Experience</h5>
-                        <small>1 year of software engineering experience</small>
-                    </article>
-                    <article className="about__card">
-                        <FaAward className="about__icon"/>
-                        <h5>Experience</h5>
-                        <small>1 year of software engineering experience</small>
-                    </article>
-                    <article className="about__card">
-                        <FaAward className="about__icon"/>
-                        <h5>Experience</h5>
-                        <small>1 year of software engineering experience</small>
-                    </article>
-                    <article className="about__card">
-                        <FaAward className="about__icon"/>
-                        <h5>Experience</h5>
-                        <small>1 year of software engineering experience</small>
-                    </article>
-                </div>
+            <div className="experience_cards">
+                <CollapsibleCard
+                    id="cs_card" title="Credit Suisse" date="2022-Present"
+                    subtitle1="Technology Analyst"
+                    subtitle2="London, UK">
+                    <small>We'll figure this out later.</small>
+                </CollapsibleCard>
+                <CollapsibleCard
+                    id="imagination_card" title="Imagination Technologies" date="2021"
+                    subtitle1="Machine Learning Engineer"
+                    subtitle2="Kings Langley, UK">
+                    <small>We'll figure this out later.</small>
+                </CollapsibleCard>
+                <CollapsibleCard
+                    id="imperial_work_card" title="Imperial College London" date="2020"
+                    subtitle1="Undergraduate Research Assistant"
+                    subtitle2="London, UK">
+                    <small>We'll figure this out later.</small>
+                </CollapsibleCard>
             </div>
-
         </section>
     );
 }
