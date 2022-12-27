@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/Education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/experience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -144,7 +148,7 @@
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="3075000" />
       <workItem from="1671909042261" duration="6869000" />
-      <workItem from="1671919910752" duration="76449000" />
+      <workItem from="1671919910752" duration="81403000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic styles, created header component">
       <created>1671914124841</created>
@@ -244,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672095420425</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed issues with background pictures moving unnecessarily when sizing window, added some content">
+      <created>1672096423432</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672096423432</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +287,7 @@
     <MESSAGE value="Refactored EducationCard to be more generic, made subtitles optional" />
     <MESSAGE value="Refined education, experience and projects sections" />
     <MESSAGE value="Fixed bug causing date to be misplaced on mobile devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug causing date to be misplaced on mobile devices" />
+    <MESSAGE value="Fixed issues with background pictures moving unnecessarily when sizing window, added some content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed issues with background pictures moving unnecessarily when sizing window, added some content" />
   </component>
 </project>
