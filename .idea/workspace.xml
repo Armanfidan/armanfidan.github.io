@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/education/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/experience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/CTA.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeButtons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +51,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2JN5JmQ4Al1JjUw2LLqrsINR2q4" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,6 +75,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
     "ts.external.directory.path": "/Users/arfi/Documents/armanfidan.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -142,7 +156,7 @@
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="3075000" />
       <workItem from="1671909042261" duration="6869000" />
-      <workItem from="1671919910752" duration="83044000" />
+      <workItem from="1671919910752" duration="94686000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic styles, created header component">
       <created>1671914124841</created>
@@ -256,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672140975768</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Attempted to fix GitHub routing problem by switching to HashRouter">
+      <created>1672146511979</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672146511979</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +311,7 @@
     <MESSAGE value="Fixed bug causing date to be misplaced on mobile devices" />
     <MESSAGE value="Fixed issues with background pictures moving unnecessarily when sizing window, added some content" />
     <MESSAGE value="Redesigned page routing using react-router" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redesigned page routing using react-router" />
+    <MESSAGE value="Attempted to fix GitHub routing problem by switching to HashRouter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempted to fix GitHub routing problem by switching to HashRouter" />
   </component>
 </project>

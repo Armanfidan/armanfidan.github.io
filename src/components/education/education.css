@@ -25,7 +25,7 @@
 
 /*!* MEDIA QUERIES *!*/
 @media screen and (max-width: 750px) {
-    .education__cards {
+    .education_cards {
         gap: 1.5rem
     }
 

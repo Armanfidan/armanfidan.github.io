@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
-import CTA from "./CTA";
 import Socials from "./socials";
+import HomeButtons from "./HomeButtons";
 
 function Home() {
     return (
@@ -13,7 +13,7 @@ function Home() {
                     </div>
                     <h2>Arman Fidanoglu</h2>
                     <h4 className="text-light">Software Engineer</h4>
-                    <CTA/>
+                    <HomeButtons/>
                     <Socials/>
                 </div>
                 <div className="about__container">

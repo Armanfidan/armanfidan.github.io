@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import ReactDOM from "react-dom/client";
 import {HashRouter, Routes, Route} from "react-router-dom";
 
 import Home from "./components/home/Home"
@@ -25,10 +24,4 @@ export default function App() {
             </Routes>
         </HashRouter>
     );
-}
-
-const root_nullable: HTMLElement | null = document.getElementById('root');
-if (root_nullable != null) {
-    const root = ReactDOM.createRoot(root_nullable);
-    root.render(<App/>);
 }
