@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/Nav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +142,7 @@
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="3075000" />
       <workItem from="1671909042261" duration="6869000" />
-      <workItem from="1671919910752" duration="81403000" />
+      <workItem from="1671919910752" duration="83044000" />
     </task>
     <task id="LOCAL-00001" summary="Added basic styles, created header component">
       <created>1671914124841</created>
@@ -255,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672096423432</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Redesigned page routing using react-router">
+      <created>1672140975768</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672140975768</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +289,7 @@
     <MESSAGE value="Refined education, experience and projects sections" />
     <MESSAGE value="Fixed bug causing date to be misplaced on mobile devices" />
     <MESSAGE value="Fixed issues with background pictures moving unnecessarily when sizing window, added some content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed issues with background pictures moving unnecessarily when sizing window, added some content" />
+    <MESSAGE value="Redesigned page routing using react-router" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redesigned page routing using react-router" />
   </component>
 </project>

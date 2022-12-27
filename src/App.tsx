@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import ReactDOM from "react-dom/client";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {HashRouter, Routes, Route} from "react-router-dom";
 
 import Home from "./components/home/Home"
 import Education from "./components/education/Education";
@@ -12,7 +12,7 @@ import Nav from "./components/nav/Nav";
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Nav/>}>
                     <Route index element={<Home/>}/>
@@ -20,9 +20,10 @@ export default function App() {
                     <Route path="/experience" element={<Experience/>}/>
                     <Route path="/projects" element={<Projects/>}/>
                     <Route path="/contact" element={<Contact/>}/>
+                    <Route path="*" element={<Home/>}/>
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
