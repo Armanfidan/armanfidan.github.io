@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background: var(--colour-bg);
-    color: white;
+    color: var(--colour-text);
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -23,6 +23,9 @@ h1 {
     font-size: 2.5rem;
     line-height: 3rem;
     margin-bottom: 1.5rem;
+    background: linear-gradient(to right, var(--colour-primary), red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 section {
@@ -51,21 +54,27 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--colour-primary);
-    background: var(--colour-bg);
+    color: var(--colour-bg);
+    background: var(--colour-primary);
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
     padding: 0.5rem 0.8rem;
     border-radius: 1rem;
     font-size: 0.9rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    box-shadow: 0 0 8px 1px rgba(142, 166, 255, 0.5);
+    background-size: 500%;
+    background-image: linear-gradient(to right, var(--colour-primary-variant) 0%, #cb1839 80%, var(--colour-primary) 100%);
+    /*box-shadow: 0 0 8px 1px rgba(142, 166, 255, 0.5);*/
 }
 
 .btn:hover {
-    background: var(--colour-primary);
     color: var(--colour-bg);
-    border-color: transparent;
-    box-shadow: none;
+    background-position: 100% 0;
+    /*moz-transition: all .4s ease-in-out;*/
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 ul.a {
@@ -132,11 +141,13 @@ code {
 
 :root {
     --colour-bg: #1f1f38;
+    /*--colour-bg: #e7e7e7;*/
     --colour-bg-variant: #2c2c6c;
     --colour-primary: rgb(142, 166, 255);
+    --colour-primary-shadow: rgb(0, 0, 0);
     --colour-primary-variant: #6780ff;
     --colour-light: #dcdcdc;
-
+    --colour-text: white;
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;

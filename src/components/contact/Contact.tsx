@@ -7,7 +7,7 @@ import {GiKiwiBird, GiSmokeBomb} from "react-icons/gi";
 
 function Contact() {
     return (
-        <section id="contact">
+        <section id="contact-container">
             <ContactForm/>
             <h2>Send Me a Message</h2>
             <hr style={{background: "var(--colour-primary-variant)", marginBottom: "3rem", height: "1px", width: "80%", left: "10%", position: "relative"}}/>

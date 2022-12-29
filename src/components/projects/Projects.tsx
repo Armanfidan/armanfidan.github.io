@@ -39,6 +39,14 @@ function Projects() {
                     <small>We'll figure this out later.</small>
                 </CollapsibleCard>
                 <hr style={{background: "var(--colour-primary-variant)", height: "1px", width: "80%", alignSelf: "center"}}/>
+                <h2>Social Entrepreneurship Projects</h2>
+                <CollapsibleCard
+                    id="malafatus_card" title='AYA Nights' date="2020"
+                    subtitle1="Productivity App for Android"
+                    subtitle2="Independent">
+                    <small>We'll figure this out later.</small>
+                </CollapsibleCard>
+                <hr style={{background: "var(--colour-primary-variant)", height: "1px", width: "80%", alignSelf: "center"}}/>
                 <CollapsibleCard
                     id="website_card" title='This Website' date="2022"
                     subtitle1="Designed using React and TypeScript"

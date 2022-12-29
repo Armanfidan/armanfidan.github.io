@@ -3,7 +3,7 @@ import {BsLinkedin, BsGithub} from 'react-icons/bs'
 
 function Socials() {
     return (
-        <div className="header__socials">
+        <div className="socials">
             <a href="https://www.linkedin.com/in/arman-fidanoglu-86117595/"><BsLinkedin/></a>
             <a href="https://github.com/Armanfidan"><BsGithub/></a>
         </div>

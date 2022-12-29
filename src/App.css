@@ -1,15 +1,154 @@
 .App {
   text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+#home {
+  background: radial-gradient(
+          10% 50% at 0 50%,
+          rgba(51, 109, 255, 0.38) 0%,
+          rgba(68, 51, 238, 0) 100%
+  ), radial-gradient(
+          10% 50% at 100% 50%,
+          rgba(255, 0, 0, 0.38) 0%,
+          rgba(68, 51, 238, 0) 100%
+  ), radial-gradient(
+          50% 10% at 50% 0,
+          rgba(0, 255, 74, 0.38) 0%,
+          rgba(68, 51, 238, 0) 100%
+  ), radial-gradient(
+          50% 10% at 50% 100%,
+          rgba(255, 234, 0, 0.38) 0%,
+          rgba(68, 51, 238, 0) 100%
+  );
+}
+#software {
+  background: radial-gradient(
+          10% 50% at 0 50%,
+          rgba(255, 0, 0, 0.38) 0%,
+          rgba(68, 51, 238, 0) 100%
+  );
+}
+#events {
+  background: radial-gradient(
+          10% 50% at 100% 50%,
+          rgba(51, 109, 255, 0.38) 0%,
+          rgba(68, 51, 238, 0) 100%
+  );
+}
+#music {
+  background:radial-gradient(
+          50% 10% at 50% 100%,
+          rgba(0, 255, 74, 0.38) 0%,
+          rgba(68, 51, 238, 0) 100%
+  );
+}
+#contact {
+  background:radial-gradient(
+          50% 10% at 50% 0,
+          rgba(255, 234, 0, 0.38) 0%,
+          rgba(68, 51, 238, 0) 100%
+  );
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: var(--transition);
+}
+
+.section.active {
+  top: 0;
+  left: 0;
+  transition: var(--transition);
+  visibility: visible;
+}
+
+.section.hidden {
+  transition: var(--transition);
+  visibility: hidden;
+}
+
+#home.hidden_s {
+  left: -100%;
+  visibility: hidden;
+}
+#home.hidden_e {
+  left: 100%;
+  visibility: hidden;
+}
+#home.hidden_m {
+  top: 100%;
+  visibility: hidden;
+}
+#home.hidden_c {
+  top: -100%;
+  visibility: hidden;
+}
+#software.hidden {
+  left: 100%;
+}
+#events.hidden {
+  left: -100%;
+}
+#music.hidden {
+  top: -100%;
+}
+#contact.hidden {
+  top: 100%;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: blue;
+}
+
+.button {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  --button-margin: 20px;
+  color: var(--colour-text);
+}
+.button:hover {
+  color: var(--colour-primary);
+}
+
+.button.left {
+  flex-direction: row;
+  top: 50%;
+  left: var(--button-margin);
+  text-align: left;
+}
+.button.right {
+  flex-direction: row;
+  top: 50%;
+  right: var(--button-margin);
+  text-align: right;
+}
+.button.top {
+  flex-direction: column;
+  top: var(--button-margin);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.button.bottom {
+  flex-direction: column;
+  bottom: var(--button-margin);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.general {
+  --transition: all 500ms ease;
 }
