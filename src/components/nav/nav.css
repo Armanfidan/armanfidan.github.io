@@ -1,0 +1,55 @@
+.nav-buttons {
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#next-nav-button-horizontal,
+#prev-nav-button-horizontal {
+    color: white;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    transition: all 0.3s ease;
+    pointer-events: all;
+}
+#next-nav-button-horizontal:visited,
+#prev-nav-button-horizontal:visited {
+    color: white;
+}
+
+#prev-nav-button-horizontal {
+    left: 20px;
+}
+#next-nav-button-horizontal {
+    right: 20px
+}
+#next-nav-button-vertical,
+#prev-nav-button-vertical {
+    color: white;
+    position: fixed;
+    left: 50%;
+    z-index: 5;
+    transition: all 0.3s ease;
+    pointer-events: all;
+    transform: translateX(-50%);
+}
+#next-nav-button-vertical:visited,
+#prev-nav-button-vertical:visited {
+    color: white;
+}
+
+#prev-nav-button-vertical {
+    top: 20px;
+}
+#next-nav-button-vertical {
+    bottom: 20px
+}
+
+.nav-button-disabled {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
