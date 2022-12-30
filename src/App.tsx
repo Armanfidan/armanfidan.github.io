@@ -13,6 +13,7 @@ function App() {
     const initialButtonHandles: [string, string, string, string] = ["Events", "Home", "Music", "Contacts"];
     const [slide, setSlide] = useState(initialSlide);
     const [buttonHandles, setButtonHandles] = useState(initialButtonHandles);
+    const [wrongSlideChange, setWrongSlideChange] = useState(false);
 
     // const slideTo = (index: number) => swiper.slideTo(index);
     return (
@@ -21,17 +22,15 @@ function App() {
             <CustomSwiper
                 className="swiper-h"
                 direction="horizontal"
-                slide={slide}
-                setSlide={setSlide}
-                setButtonHandles={setButtonHandles}>
+                slide={slide} setSlide={setSlide} setButtonHandles={setButtonHandles}
+                wrongSlideChange={wrongSlideChange} setWrongSlideChange={setWrongSlideChange}>
                 <SwiperSlide data-hash="events">Events</SwiperSlide>
                 <SwiperSlide>
                     <CustomSwiper
                         className="swiper-v"
                         direction="vertical"
-                        slide={slide}
-                        setSlide={setSlide}
-                        setButtonHandles={setButtonHandles}>
+                        slide={slide} setSlide={setSlide} setButtonHandles={setButtonHandles}
+                        wrongSlideChange={wrongSlideChange} setWrongSlideChange={setWrongSlideChange}>
                         <SwiperSlide data-hash="music">Music</SwiperSlide>
                         <SwiperSlide data-hash="">Home</SwiperSlide>
                         <SwiperSlide data-hash="contact">Contact</SwiperSlide>

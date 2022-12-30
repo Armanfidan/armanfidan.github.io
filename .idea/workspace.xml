@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/nav/CustomSwiper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav/NavButtons.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/CustomSwiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/CustomSwiper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/NavButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/NavButtons.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <updated>1671905631498</updated>
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="274000" />
-      <workItem from="1672345416902" duration="20058000" />
+      <workItem from="1672345416902" duration="22984000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -83,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672396442478</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added temporary fix for being able to swipe from music and contact that redirects user to home page">
+      <created>1672424174536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672424174536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finalised basic navigation system mechanics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalised basic navigation system mechanics" />
+    <MESSAGE value="Added temporary fix for being able to swipe from music and contact that redirects user to home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added temporary fix for being able to swipe from music and contact that redirects user to home page" />
   </component>
 </project>

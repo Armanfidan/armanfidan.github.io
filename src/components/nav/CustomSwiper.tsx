@@ -10,13 +10,12 @@ type Props = {
     slide: [number, number];
     setSlide: (slide: [number, number]) => void;
     setButtonHandles: (handles: [string, string, string, string]) => void;
+    wrongSlideChange: boolean;
+    setWrongSlideChange: (wrongSlideChange: boolean) => void;
     children: React.ReactNode | ReactElement;
 };
 
 function CustomSwiper(props: Props) {
-    const delay = async (time: number) => {
-        await new Promise(resolve => setTimeout(resolve, time));
-    }
     const updateButtonHandles = (newSlide: [number, number]) => {
         switch (newSlide.join(',')) {
             case '0,1':
@@ -34,7 +33,8 @@ function CustomSwiper(props: Props) {
             case '1,2':
                 props.setButtonHandles(["Events", "Software", "Home", "Contacts"]);
                 break;
-            default: break;
+            default:
+                break;
         }
     }
     return (
@@ -55,8 +55,12 @@ function CustomSwiper(props: Props) {
             }}
             onSlideChange={(index: SwiperClass) => {
                 const nested_condition: boolean = props.slide[0] === 1 && (props.slide[1] === 0 || props.slide[1] === 2);
-                if (props.direction === 'horizontal' && nested_condition)
+                if (props.direction === 'horizontal' && nested_condition) {
                     index.slideTo(1);
+                    props.setWrongSlideChange(true);
+                    props.setSlide([1, props.slide[1]]);
+                    return;
+                }
                 let newSlide: [number, number];
                 if (props.direction === "horizontal")
                     newSlide = [index.snapIndex, props.slide[1]];
@@ -65,7 +69,13 @@ function CustomSwiper(props: Props) {
                 props.setSlide(newSlide);
                 updateButtonHandles(newSlide);
             }}
-        >
+            onActiveIndexChange={(index: SwiperClass) => {
+                if (props.direction === 'horizontal') return;
+                if (props.wrongSlideChange) {
+                    index.slideTo(props.slide[1]);
+                    props.setWrongSlideChange(false);
+                }
+            }}>
             {props.children}
         </Swiper>
     );
