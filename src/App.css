@@ -44,13 +44,32 @@ body {
     align-items: center;
 }
 
+#next-horizontal,
+#prev-horizontal {
+    color: white;
+    position: fixed;
+    top: 50%;
+    z-index: 5;
+    transition: all 0.3s ease;
+}
+#next-horizontal:visited,
+#prev-horizontal:visited {
+    color: white;
+}
+
+#prev-horizontal {
+    left: 20px;
+}
+#next-horizontal {
+    right: 20px
+}
 #next-vertical,
 #prev-vertical {
     color: white;
     position: fixed;
     left: 50%;
     z-index: 5;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 #next-vertical:visited,
 #prev-vertical:visited {
