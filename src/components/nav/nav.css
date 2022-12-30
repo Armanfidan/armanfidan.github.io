@@ -5,51 +5,53 @@
     height: 100%;
     pointer-events: none;
 }
-#next-nav-button-horizontal,
-#prev-nav-button-horizontal {
-    color: white;
+
+.nav-button {
+    color: var(--colour-primary);
     position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
     z-index: 5;
     transition: all 0.3s ease;
     pointer-events: all;
 }
-#next-nav-button-horizontal:visited,
-#prev-nav-button-horizontal:visited {
-    color: white;
+
+.nav-button:hover {
+
+}
+
+.nav-button:visited {
+    color: var(--colour-primary)
+}
+
+.nav-button.disabled, .nav-button-disabled {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#next-nav-button-horizontal,
+#prev-nav-button-horizontal {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#next-nav-button-vertical,
+#prev-nav-button-vertical {
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #prev-nav-button-horizontal {
-    left: 20px;
+    left: 20px
 }
+
 #next-nav-button-horizontal {
     right: 20px
 }
-#next-nav-button-vertical,
-#prev-nav-button-vertical {
-    color: white;
-    position: fixed;
-    left: 50%;
-    z-index: 5;
-    transition: all 0.3s ease;
-    pointer-events: all;
-    transform: translateX(-50%);
-}
-#next-nav-button-vertical:visited,
-#prev-nav-button-vertical:visited {
-    color: white;
-}
 
 #prev-nav-button-vertical {
-    top: 20px;
+    top: 20px
 }
+
 #next-nav-button-vertical {
     bottom: 20px
-}
-
-.nav-button-disabled {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
 }
