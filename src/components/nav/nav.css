@@ -12,10 +12,15 @@
     z-index: 5;
     transition: all 0.3s ease;
     pointer-events: all;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-transform: uppercase;
+    --button-margin: 20px;
 }
 
 .nav-button:hover {
-
+    color: white;
 }
 
 .nav-button:visited {
@@ -32,6 +37,7 @@
 #prev-nav-button-horizontal {
     top: 50%;
     transform: translateY(-50%);
+    flex-direction: row;
 }
 
 #next-nav-button-vertical,
@@ -41,17 +47,25 @@
 }
 
 #prev-nav-button-horizontal {
-    left: 20px
+    left: var(--button-margin);
+    writing-mode: vertical-rl;
 }
 
 #next-nav-button-horizontal {
-    right: 20px
+    right: var(--button-margin);
+    writing-mode: vertical-lr;
 }
 
 #prev-nav-button-vertical {
-    top: 20px
+    top: var(--button-margin);
 }
 
 #next-nav-button-vertical {
-    bottom: 20px
+    bottom: var(--button-margin);
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-button {
+        --button-margin: 5px;
+    }
 }

@@ -1,0 +1,44 @@
+.MuiFormHelperText-root {
+    color: #fff !important;
+}
+
+.MuiFormLabel-root:active {
+    color: #fff !important;
+}
+
+#contact {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.contact-line {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    max-width: 100%;
+    gap: 2rem;
+    position: relative;
+    padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+    color: white;
+    transition: all 0.3s;
+    border-radius: 2rem;
+    box-shadow: 0 0 25px 5px #0a0a18;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-form {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        border-radius: 1.2rem;
+    }
+}

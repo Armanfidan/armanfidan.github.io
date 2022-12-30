@@ -5,10 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/CV_Arman_Fidanoglu_October_2022.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/malafatus.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/rover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/snek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/spot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/visuaid.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card/CollapsibleCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card/CustomCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card/collapsible_card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/HomeButtons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/socials.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/Projects.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/projects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nav/NavButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/NavButtons.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/assets/CV_Arman_Fidanoglu_October_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/assets/malafatus.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/assets/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/assets/rover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/assets/snek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/assets/spot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/assets/visuaid.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/card/CollapsibleCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/card/CustomCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/card/collapsible_card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/contact/Contact.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/contact/ContactForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/contact/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/home/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/home/HomeButtons.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/home/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/home/socials.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/projects/Projects.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/projects/projects.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +97,17 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="deploy" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -61,6 +115,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.deploy" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +130,7 @@
       <updated>1671905631498</updated>
       <workItem from="1671905632941" duration="13000" />
       <workItem from="1671905794192" duration="274000" />
-      <workItem from="1672345416902" duration="23694000" />
+      <workItem from="1672345416902" duration="27219000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -95,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672427195392</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed button re-appearing problem and simplified navigation css file">
+      <created>1672427813953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672427813953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +182,7 @@
     <MESSAGE value="Finalised basic navigation system mechanics" />
     <MESSAGE value="Added temporary fix for being able to swipe from music and contact that redirects user to home page" />
     <MESSAGE value="Improved solution to prevent re-routing to home page. The solution is slightly unreliable and some navigation buttons re-appear on wrong slide changes, though." />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved solution to prevent re-routing to home page. The solution is slightly unreliable and some navigation buttons re-appear on wrong slide changes, though." />
+    <MESSAGE value="Fixed button re-appearing problem and simplified navigation css file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed button re-appearing problem and simplified navigation css file" />
   </component>
 </project>

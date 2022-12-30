@@ -24,7 +24,11 @@ function App() {
                 direction="horizontal"
                 slide={slide} setSlide={setSlide} setButtonHandles={setButtonHandles}
                 wrongSlideChange={wrongSlideChange} setWrongSlideChange={setWrongSlideChange}>
-                <SwiperSlide data-hash="events">Events</SwiperSlide>
+                <SwiperSlide
+                    data-hash="events"
+                    style={slide[0] === 1 && (slide[1] === 0 || slide[1] === 2) ? {visibility: "hidden"} : {}}>
+                    Events
+                </SwiperSlide>
                 <SwiperSlide>
                     <CustomSwiper
                         className="swiper-v"
@@ -36,7 +40,11 @@ function App() {
                         <SwiperSlide data-hash="contact">Contact</SwiperSlide>
                     </CustomSwiper>
                 </SwiperSlide>
-                <SwiperSlide data-hash="software">Software</SwiperSlide>
+                <SwiperSlide
+                    data-hash="software"
+                    style={slide[0] === 1 && (slide[1] === 0 || slide[1] === 2) ? {visibility: "hidden"} : {}}>
+                    Software
+                </SwiperSlide>
             </CustomSwiper>
         </div>
     )
