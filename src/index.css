@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900;1000&display=swap');
 
 body {
     margin: 0;
@@ -48,25 +48,11 @@ a:hover {
     color: white;
 }
 
-.btn {
-    width: max-content;
-    display: inline-block;
+a:visited {
     color: var(--colour-primary);
-    background: var(--colour-bg);
-    padding: 0.5rem 0.8rem;
-    border-radius: 1rem;
-    font-size: 0.9rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-    box-shadow: 0 0 8px 1px rgba(142, 166, 255, 0.5);
 }
 
-.btn:hover {
-    background: var(--colour-primary);
-    color: var(--colour-bg);
-    border-color: transparent;
-    box-shadow: none;
-}
+
 
 ul.a {
     list-style-type: circle;
@@ -133,8 +119,8 @@ code {
 :root {
     --colour-bg: #1f1f38;
     --colour-bg-variant: #2c2c6c;
-    --colour-primary: rgb(142, 166, 255);
-    --colour-primary-variant: #6780ff;
+    --colour-primary: #FFD600FF;
+    --colour-primary-variant: #009d16;
     --colour-light: #dcdcdc;
 
     --container-width-lg: 75%;
