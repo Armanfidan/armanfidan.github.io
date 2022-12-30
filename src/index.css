@@ -23,7 +23,8 @@ a {
 :root {
   --colour-bg: #1f1f38;
   --colour-bg-variant: #2c2c6c;
-  --colour-primary: rgb(142, 166, 255);
-  --colour-primary-variant: #6780ff;
+  --colour-primary: #FFD600FF;
+  --colour-primary-variant: #009d16;
   --colour-light: #dcdcdc;
+  --colour-primary-shadow: rgb(0, 0, 0);
 }

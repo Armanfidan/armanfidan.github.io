@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import CustomSwiper from "./components/nav/CustomSwiper";
 import NavButtons from "./components/nav/NavButtons";
+import Home from "./components/home/Home";
 
 function App() {
     const initialSlide: [number, number] = [1, 1];
@@ -36,7 +37,7 @@ function App() {
                         slide={slide} setSlide={setSlide} setButtonHandles={setButtonHandles}
                         wrongSlideChange={wrongSlideChange} setWrongSlideChange={setWrongSlideChange}>
                         <SwiperSlide data-hash="music">Music</SwiperSlide>
-                        <SwiperSlide data-hash="">Home</SwiperSlide>
+                        <SwiperSlide data-hash=""><Home/></SwiperSlide>
                         <SwiperSlide data-hash="contact">Contact</SwiperSlide>
                     </CustomSwiper>
                 </SwiperSlide>
