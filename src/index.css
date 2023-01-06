@@ -21,10 +21,13 @@ a {
 }
 
 :root {
-  --colour-bg: #1f1f38;
-  --colour-bg-variant: #2c2c6c;
-  --colour-primary: #FFD600FF;
-  --colour-primary-variant: #009d16;
+  --colour-bg: #fff;
+  --colour-bg-variant: #ffd676;
+  --colour-primary: #2d9eff;
+  --colour-primary-variant: #ff0000;
+  --colour-text: #000;
   --colour-light: #dcdcdc;
-  --colour-primary-shadow: rgb(0, 0, 0);
+  --colour-primary-shadow: rgba(0, 66, 119, 0.4);
+
+  --container-margin: 70px;
 }

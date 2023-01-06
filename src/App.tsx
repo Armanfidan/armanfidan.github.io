@@ -2,12 +2,15 @@ import React, {useState} from 'react';
 import './App.css';
 
 import {SwiperSlide} from "swiper/react";
+import SwiperCore, { Scrollbar } from 'swiper';
 
 import "swiper/css";
 import "swiper/css/pagination";
 import CustomSwiper from "./components/nav/CustomSwiper";
 import NavButtons from "./components/nav/NavButtons";
 import Home from "./components/home/Home";
+
+SwiperCore.use([Scrollbar]);
 
 function App() {
     const initialSlide: [number, number] = [1, 1];

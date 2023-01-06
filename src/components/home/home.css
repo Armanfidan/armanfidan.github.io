@@ -1,43 +1,41 @@
 #home-container {
-    padding: 7rem 15% 7rem 15%;
-    /*overflow: hidden;*/
+    padding: 2rem;
     display: grid;
-    position: relative;
     grid-template-columns: 1fr 1fr;
+    border-radius: 4rem;
+    position: absolute;
+    left: var(--container-margin);
+    top: var(--container-margin);
+    bottom: var(--container-margin);
+    right: var(--container-margin);
+    /*overflow: hidden;*/
+    align-items: center;
 }
 
 .profile-card {
     background: var(--colour-bg);
     box-shadow: 0 0 50px 1px var(--colour-primary-shadow);
-    border-radius: 4rem;
+    border-radius: 3.5rem;
     padding: 2rem;
-    height: fit-content;
-    width: 50%;
     position: relative;
-    transform: translateY(-50%) translateX(-25%);
-    top: 50%;
-    left: 50%;
-    align-items: center;
     text-align: center;
+    width: 60%;
+    left: 18%;
 }
 
 .profile-card h2 {
     font-weight: 600;
-    font-size: 1.7rem;
-    line-height: 2rem;
-    margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+    line-height: 0;
+    margin: 2.5rem 0 0.5rem 0;
 }
 
 .profile-picture {
     box-shadow: 0 0 25px 5px var(--colour-primary-shadow);
-    margin-top: 10%;
-    width: 60%;
     position: relative;
-    left: 20%;
     object-fit: revert;
-    height: 50%;
     overflow: hidden;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
     border-radius: 2rem;
 }
 
@@ -47,9 +45,9 @@
 }
 
 .profile-card-buttons {
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     display: flex;
-    gap: 1.2rem;
+    gap: 1rem;
     justify-content: center;
 }
 
@@ -57,7 +55,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     gap: 1rem;
     position: relative;
     font-size: 1.5rem;
@@ -66,26 +64,18 @@
 .about-container {
     text-align: justify;
     position: relative;
-    height: fit-content;
-    width: 80%;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-60%);
+    margin-right: 2rem;
 }
 
 .about-container h1 {
-    /*display: block;*/
     font-weight: 800;
-    font-size: 3.2rem;
-    line-height: 3.2rem;
+    font-size: 4vw;
+    line-height: 4vw;
     background: linear-gradient(90deg, var(--colour-primary), var(--colour-primary-variant));
     background-clip: text;
     color: transparent;
-    background-size: 90%;
-}
-
-.about-container p {
-    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /*background-size: 90%;*/
 }
 
 .btn {
@@ -101,102 +91,55 @@
     transition: var(--transition);
 }
 
-.social {
-    color: var(--colour-primary);
-}
-.social:hover {
-    color: var(--colour-primary-variant);
-}
-
 .btn:hover {
     background: var(--colour-primary-variant);
     color: var(--colour-bg);
     border-color: transparent;
     box-shadow: none;
 }
-/* MEDIA QUERIES */
-@media screen and (max-width: 1500px) {
-    #home-container {
-        padding: 4rem 5% 7rem 5%;
-    }
 
-    .profile-card {
-        width: 55%;
-    }
-
-    .about-container {
-        width: 70%;
-    }
-
-    .about-container h1 {
-        font-weight: 700;
-        font-size: 2.5rem;
-        background-size: 100%;
-        /*line-height: 2.2rem;*/
-    }
-
-    .about-container p {
-        margin-top: 2rem;
-    }
+.social {
+    color: var(--colour-primary);
 }
 
-@media screen and (max-width: 1024px) {
+.social:hover {
+    color: var(--colour-primary-variant);
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px) {
     #home-container {
         padding: 0;
         grid-template-columns: 1fr;
         align-items: center;
+        box-shadow: 0 0 50px 1px var(--colour-primary-shadow);
+        overflow: hidden;
     }
 
     .profile-card {
-        position: relative;
-        transform: translateX(-50%);
-        top: 10%;
+        left: calc(20% - var(--container-margin));
+        box-shadow: none;
+    }
+
+    #intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    #intro h2 {
+        font-size: 3vw;
     }
 
     .about-container {
-        position: relative;
-        width: 60%;
-        transform: translateX(-50%);
+        margin: 2rem;
     }
 
     .about-container h1 {
-        font-weight: 700;
-        font-size: 2.4rem;
-        line-height: 2.4rem;
+        font-size: 7vw;
+        line-height: 7vw;
     }
 
-    .about-container p {
-        margin-top: 2rem;
-        line-height: 1.2rem;
-        font-size: 0.9rem;
-    }
-}
-@media screen and (max-width: 600px) {
-    #home-container {
-        padding: 0 2rem 2rem 2rem;
-        grid-template-columns: 1fr;
-        overflow: visible;
-    }
-
-    .profile-card {
-        position: relative;
-        width: 80%;
-    }
-
-    .about-container {
-        /*margin: 20% 10% 30% 10%;*/
-        top: 30%;
-        width: 90%;
-    }
-
-    .about-container h1 {
-        font-weight: 700;
-        font-size: 2rem;
-        line-height: 2rem;
-    }
-
-    .about-container p {
-        margin-top: 2rem;
-        line-height: 1.2rem;
+    :root {
+        --container-margin: 40px;
     }
 }
