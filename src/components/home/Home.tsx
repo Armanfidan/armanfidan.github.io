@@ -10,18 +10,12 @@ function Home() {
                 <div className="profile-picture">
                     <img src={require("../../assets/me.jpg")} alt="Me"/>
                 </div>
-                <div id="intro">
-                    <div>
-                        <h2>Arman Fidanoglu</h2>
-                        <br/>
-                        <HomeButtons/>
-                    </div>
-                    <div>
-                        <h4 style={{marginTop: '1.6rem'}} className="text-light">Software Engineer</h4>
-                        <Socials/>
-                    </div>
-                </div>
+                <h2>Arman Fidanoglu</h2>
+                <h4 className="text-light">Software Engineer</h4>
+                <HomeButtons/>
+                <Socials/>
             </div>
+            <hr className="divider"/>
             <div className="about-container">
                 <h1>Glad you're here.<br/>Here's who I am.</h1>
                 <p>I'm a recent Electrical and Electronic Engineering graduate from Imperial College London, and
