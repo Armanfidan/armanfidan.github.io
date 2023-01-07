@@ -110,8 +110,8 @@
         padding: 0;
         grid-template-columns: 1fr;
         align-items: center;
-        box-shadow: 0 0 50px 1px var(--colour-primary-shadow);
-        overflow: hidden;
+        box-shadow: 0 0 40px 1px var(--colour-primary-shadow);
+        overflow: scroll;
         left: var(--container-margin);
         right: var(--container-margin);
         border-radius: 2rem;
