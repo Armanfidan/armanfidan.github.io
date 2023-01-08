@@ -5,7 +5,7 @@ import {HashRouter, Routes, Route} from "react-router-dom";
 import Home from "./components/home/Home"
 import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
-import Projects from "./components/projects/Projects";
+import Projects from "./components/software/Software";
 import Contact from "./components/contact/Contact";
 import Nav from "./components/nav/Nav";
 
