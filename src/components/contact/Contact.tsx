@@ -32,7 +32,7 @@ function Contact() {
         final_position = event.touches[0].clientY;
         const touch_delta = final_position - initial_position;
         const direction: 'up' | 'down' = touch_delta > 0 ? 'up' : 'down';
-        if ((scrollTop === 0 && direction === 'up')) {  // At the top scrolling up
+        if ((scrollTop <= 0 && direction === 'up')) {  // At the top scrolling up
             enableSlideMovement(true);
         } else {  // Everything else
             enableSlideMovement(false);

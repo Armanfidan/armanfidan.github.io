@@ -75,7 +75,7 @@ function CustomSwiper(props: Props) {
             }}
             onActiveIndexChange={(swiper: SwiperClass) => {
                 if (props.direction === 'horizontal') return;
-                if (swiper.snapIndex === 1) {
+                if (swiper.snapIndex === 1 || swiper.snapIndex === 2) {
                     swiper.allowTouchMove = false;
                     swiper.allowSlideNext = false;
                     swiper.allowSlidePrev = false;
