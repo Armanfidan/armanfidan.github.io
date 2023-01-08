@@ -13,6 +13,11 @@
     text-align: center;
     padding: 0 2rem 0 2rem;
     overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+#contact::-webkit-scrollbar {
+    display: none;
 }
 
 #contact h2 {
@@ -48,6 +53,6 @@
     .contact-form {
         grid-template-columns: 1fr;
         padding: 1rem;
-        border-radius: 1.2rem;
+        /*border-radius: 1.2rem;*/
     }
 }

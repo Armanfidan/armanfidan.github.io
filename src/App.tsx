@@ -10,6 +10,7 @@ import CustomSwiper from "./components/nav/CustomSwiper";
 import NavButtons from "./components/nav/NavButtons";
 import Home from "./components/home/Home";
 import Contact from "./components/contact/Contact";
+import Software from "./components/software/Software";
 
 SwiperCore.use([Scrollbar]);
 
@@ -52,7 +53,7 @@ function App() {
                 <SwiperSlide
                     data-hash="software"
                     style={slide[0] === 1 && (slide[1] === 0 || slide[1] === 2) ? {visibility: "hidden"} : {}}>
-                    Software
+                    <Software/>
                 </SwiperSlide>
             </CustomSwiper>
         </div>

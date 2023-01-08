@@ -7,13 +7,14 @@
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/CollapsibleCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/CollapsibleCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/collapsible_card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card/collapsible_card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/HomeButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeButtons.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/software/Software.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/software/software.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1" beforeDir="false" afterPath="$PROJECT_DIR$/v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v1/src/components/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/v1/src/components/nav/Nav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
       <workItem from="1672345416902" duration="32839000" />
       <workItem from="1672503043051" duration="2619000" />
       <workItem from="1672861159672" duration="7977000" />
-      <workItem from="1673121358570" duration="17662000" />
+      <workItem from="1673121358570" duration="20648000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -173,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673177912351</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implemented contact page">
+      <created>1673184069672</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673184069672</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +228,7 @@
     <MESSAGE value="Made home container scrollable" />
     <MESSAGE value="Finalised home container scrolling logic" />
     <MESSAGE value="Fixed scrolling logic bug causing unintentional slide changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed scrolling logic bug causing unintentional slide changes" />
+    <MESSAGE value="Implemented contact page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented contact page" />
   </component>
 </project>

@@ -50,7 +50,7 @@ export default function CollapsibleCard(props: Props) {
     return (
         <Card className="collapsible_card_bg" id={props.id} sx={{
             borderRadius: "2rem 2.2rem 2.2rem 2rem",
-            boxShadow: "0 0 30px 1px black",
+            boxShadow: "0 0 30px 1px var(--colour-primary-shadow)",
             position: "relative",
             backgroundAttachment: "revert",
             backgroundSize: "cover",
@@ -77,7 +77,7 @@ export default function CollapsibleCard(props: Props) {
                         <ExpandMore expand={expanded}
                                     onClick={handleExpandClick}
                                     aria-expanded={expanded}
-                                    aria-label="show more"><IoIosArrowDown/>
+                                    aria-label="show more"><IoIosArrowDown color="black"/>
                         </ExpandMore>
                     </div>
                 </div>

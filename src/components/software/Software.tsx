@@ -1,11 +1,11 @@
 import React from 'react';
-import "./projects.css";
+import "./software.css";
 import CollapsibleCard from "../card/CollapsibleCard";
 
-function Projects() {
+function Software() {
     return (
-        <section id="projects">
-            <h2>Projects</h2>
+        <section id="software-container">
+            <h2>Software Projects</h2>
             <div className="project_cards">
                 <CollapsibleCard
                     id="fyp_card" title="Dynamic Grasping with a Quadruped Mobile Manipulator" date="2022"
@@ -38,7 +38,7 @@ function Projects() {
                     subtitle2="Independent">
                     <small>We'll figure this out later.</small>
                 </CollapsibleCard>
-                <hr style={{background: "var(--colour-primary-variant)", height: "1px", width: "80%", alignSelf: "center"}}/>
+                <hr style={{background: "var(--colour-primary)", borderWidth: '0', height: "1px", width: "80%", alignSelf: "center"}}/>
                 <CollapsibleCard
                     id="website_card" title='This Website' date="2022"
                     subtitle1="Designed using React and TypeScript"
@@ -50,4 +50,4 @@ function Projects() {
     );
 }
 
-export default Projects;
+export default Software;

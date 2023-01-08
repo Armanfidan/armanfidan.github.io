@@ -1,19 +1,20 @@
 .collapsible_card {
     position: relative;
-    padding: 1rem 2rem 1rem 0;
+    padding: 0 2rem 1rem 0;
     display: grid;
-    color: white;
+    color: black;
     grid-template-columns: 0.7fr 1.3fr;
     text-align: left;
     backdrop-filter: blur(25px);
-    background-color: rgba(2, 0, 35, 0.6);
+    -ms-filter: blur(25px);
+    background-color: rgba(255, 255, 255, 0.6);
     mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.99) 30%, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, 1) 120%);
     transition: all 0.3s;
     border-radius: 2rem;
 }
 
 .collapsible_card:hover {
-    background-color: rgba(44, 44, 108, 0.85);
+    background-color: rgba(195, 195, 255, 0.85);
     transition: all 0.3s;
 }
 
@@ -31,8 +32,6 @@
 
 @media screen and (max-width: 750px) {
     .collapsible_card {
-        backdrop-filter: none;
-        background-color: var(--colour-bg);
         mask: none;
         grid-template-columns: 1fr;
         padding: 1rem;
