@@ -28,15 +28,17 @@ function Home() {
         final_position = event.touches[0].clientY;
         const touch_delta = final_position - initial_position;
         const direction: 'up' | 'down' = touch_delta > 0 ? 'up' : 'down';
-        console.log("Swiped " + direction);
         if ((scrollTop === 0 && direction === 'up') ||
-            (scrollTop + offsetHeight === scrollHeight && direction === 'down'))
+            (scrollTop + offsetHeight === scrollHeight && direction === 'down')) {
             verticalSwiper.allowTouchMove = true;
-        else if ((scrollTop === 0 && direction === 'down') ||
+            verticalSwiper.allowSlideNext = true;
+            verticalSwiper.allowSlidePrev = true;
+        } else if ((scrollTop === 0 && direction === 'down') ||
             (scrollTop !== 0 && scrollTop + offsetHeight !== scrollHeight) ||
             (scrollTop + offsetHeight === scrollHeight && direction === 'up')) {
             verticalSwiper.allowTouchMove = false;
-            verticalSwiper.slideTo(verticalSwiper.snapIndex)
+            verticalSwiper.allowSlideNext = false;
+            verticalSwiper.allowSlidePrev = false;
         }
     }
 

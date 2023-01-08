@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/CustomSwiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/CustomSwiper.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +87,7 @@
       <workItem from="1672345416902" duration="32839000" />
       <workItem from="1672503043051" duration="2619000" />
       <workItem from="1672861159672" duration="7977000" />
-      <workItem from="1673121358570" duration="12103000" />
+      <workItem from="1673121358570" duration="13233000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -156,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673124018392</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finalised home container scrolling logic">
+      <created>1673175024317</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673175024317</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +204,7 @@
     <MESSAGE value="Redesigned home page to be more responsive." />
     <MESSAGE value="Redesigned home page, ready to be finalised when container is made scrollable." />
     <MESSAGE value="Made home container scrollable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made home container scrollable" />
+    <MESSAGE value="Finalised home container scrolling logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalised home container scrolling logic" />
   </component>
 </project>
