@@ -34,11 +34,11 @@ function Home() {
         final_position = event.touches[0].clientY;
         const touch_delta = final_position - initial_position;
         const direction: 'up' | 'down' = touch_delta > 0 ? 'up' : 'down';
-        if ((scrollTop === 0 && direction === 'up') ||  // At the top scrolling up
-            (scrollTop + offsetHeight === scrollHeight && direction === 'down')) {  // At the bottom scrolling down
+        if ((scrollTop <= 0 && direction === 'up') ||  // At the top scrolling up
+            (scrollTop + offsetHeight >= scrollHeight && direction === 'down')) {  // At the bottom scrolling down
             enableSlideMovement(true);
         } else if ((scrollTop === 0 && direction === 'down') ||  // At the top scrolling down
-            (scrollTop !== 0 && scrollTop + offsetHeight !== scrollHeight) ||  // In the middle
+            (scrollTop > 0 && scrollTop + offsetHeight < scrollHeight) ||  // In the middle
             (scrollTop + offsetHeight === scrollHeight && direction === 'up')) {  // At the bottom scrolling up
             enableSlideMovement(false)
             verticalSwiper.slideTo(1);

@@ -21,19 +21,19 @@ function CustomSwiper(props: Props) {
     const updateButtonHandles = (newSlide: [number, number]) => {
         switch (newSlide.join(',')) {
             case '0,1':
-                props.setButtonHandles(["Events", "Home", "Music", "Contacts"]);
+                props.setButtonHandles(["Events", "Home", "Music", "Contact"]);
                 break;
             case '1,1':
-                props.setButtonHandles(["Events", "Software", "Music", "Contacts"]);
+                props.setButtonHandles(["Events", "Software", "Music", "Contact"]);
                 break;
             case '2,1':
-                props.setButtonHandles(["Home", "Software", "Music", "Contacts"]);
+                props.setButtonHandles(["Home", "Software", "Music", "Contact"]);
                 break;
             case '1,0':
                 props.setButtonHandles(["Events", "Software", "Music", "Home"]);
                 break;
             case '1,2':
-                props.setButtonHandles(["Events", "Software", "Home", "Contacts"]);
+                props.setButtonHandles(["Events", "Software", "Home", "Contact"]);
                 break;
             default:
                 break;
@@ -73,10 +73,15 @@ function CustomSwiper(props: Props) {
                 props.setSlide(newSlide);
                 updateButtonHandles(newSlide);
             }}
-            onActiveIndexChange={(index: SwiperClass) => {
+            onActiveIndexChange={(swiper: SwiperClass) => {
                 if (props.direction === 'horizontal') return;
+                if (swiper.snapIndex === 1) {
+                    swiper.allowTouchMove = false;
+                    swiper.allowSlideNext = false;
+                    swiper.allowSlidePrev = false;
+                }
                 if (props.wrongSlideChange) {
-                    index.slideTo(props.slide[1]);
+                    swiper.slideTo(props.slide[1]);
                     props.setWrongSlideChange(false);
                 }
             }}

@@ -16,7 +16,7 @@ SwiperCore.use([Scrollbar]);
 
 function App() {
     const initialSlide: [number, number] = [1, 1];
-    const initialButtonHandles: [string, string, string, string] = ["Events", "Home", "Music", "Contacts"];
+    const initialButtonHandles: [string, string, string, string] = ["Events", "Home", "Music", "Contact"];
     const [slide, setSlide] = useState(initialSlide);
     const [buttonHandles, setButtonHandles] = useState(initialButtonHandles);
     const [wrongSlideChange, setWrongSlideChange] = useState(false);
