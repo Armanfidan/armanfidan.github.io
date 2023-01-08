@@ -24,6 +24,8 @@ function App() {
         <div className="App">
             {slide ? <NavButtons slide={slide} buttonHandles={buttonHandles}/> : <></>}
             <CustomSwiper
+                id="swiper-h"
+                allowTouchMove={true}
                 className="swiper-h"
                 direction="horizontal"
                 slide={slide} setSlide={setSlide} setButtonHandles={setButtonHandles}
@@ -35,6 +37,8 @@ function App() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <CustomSwiper
+                        id="swiper-v"
+                        allowTouchMove={true}
                         className="swiper-v"
                         direction="vertical"
                         slide={slide} setSlide={setSlide} setButtonHandles={setButtonHandles}

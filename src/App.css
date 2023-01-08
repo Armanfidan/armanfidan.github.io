@@ -37,11 +37,6 @@ body {
     height: 100%;
 }
 
-.swiper-slide {
-    /*background: var(--colour-bg);*/
-}
-
 .swiper-v {
-    /*background: var(--colour-bg);*/
     z-index: 10;
 }

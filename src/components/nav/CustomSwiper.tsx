@@ -6,12 +6,14 @@ import './nav.css';
 
 type Props = {
     className: string;
+    id: string;
     direction: "vertical" | "horizontal";
     slide: [number, number];
     setSlide: (slide: [number, number]) => void;
     setButtonHandles: (handles: [string, string, string, string]) => void;
     wrongSlideChange: boolean;
     setWrongSlideChange: (wrongSlideChange: boolean) => void;
+    allowTouchMove: boolean;
     children: React.ReactNode | ReactElement;
 };
 
@@ -39,6 +41,8 @@ function CustomSwiper(props: Props) {
     }
     return (
         <Swiper
+            id={props.id}
+            allowTouchMove={props.allowTouchMove}
             className={props.className}  // + (props.direction === 'horizontal' && props.slide[0] === 1 && (props.slide[1] === 0 || props.slide[1] === 2) ? " swiper-no-swiping" : "")
             direction={props.direction}
             spaceBetween={0}
@@ -75,7 +79,8 @@ function CustomSwiper(props: Props) {
                     index.slideTo(props.slide[1]);
                     props.setWrongSlideChange(false);
                 }
-            }}>
+            }}
+        >
             {props.children}
         </Swiper>
     );

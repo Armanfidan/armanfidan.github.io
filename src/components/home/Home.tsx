@@ -1,11 +1,47 @@
-import React from 'react';
+import React, {TouchEvent} from 'react';
 import './home.css';
 import Socials from "./socials";
 import HomeButtons from "./HomeButtons";
+import {useSwiper} from "swiper/react";
 
 function Home() {
+    const verticalSwiper = useSwiper();
+    const homeContainer = document.getElementById('home-container');
+    let initial_position: number;
+    let final_position: number;
+    let initial_move: boolean;
+    let scrollTop: number;
+    let offsetHeight: number;
+    let scrollHeight: number;
+
+    const handleTouchStart = (event: TouchEvent<HTMLDivElement>) => {
+        if (!homeContainer || !verticalSwiper) return;
+        initial_position = event.touches[0].clientY;
+        initial_move = true;
+        scrollTop = homeContainer.scrollTop;
+        offsetHeight = homeContainer.offsetHeight;
+        scrollHeight = homeContainer.scrollHeight;
+    }
+    const handleTouchMove = (event: TouchEvent<HTMLDivElement>) => {
+        if (!homeContainer || !verticalSwiper || !initial_move) return;
+        initial_move = false;
+        final_position = event.touches[0].clientY;
+        const touch_delta = final_position - initial_position;
+        const direction: 'up' | 'down' = touch_delta > 0 ? 'up' : 'down';
+        console.log("Swiped " + direction);
+        if ((scrollTop === 0 && direction === 'up') ||
+            (scrollTop + offsetHeight === scrollHeight && direction === 'down'))
+            verticalSwiper.allowTouchMove = true;
+        else if ((scrollTop === 0 && direction === 'down') ||
+            (scrollTop !== 0 && scrollTop + offsetHeight !== scrollHeight) ||
+            (scrollTop + offsetHeight === scrollHeight && direction === 'up')) {
+            verticalSwiper.allowTouchMove = false;
+            verticalSwiper.slideTo(verticalSwiper.snapIndex)
+        }
+    }
+
     return (
-        <div id="home-container">
+        <div id="home-container" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}>
             <div className="container profile-card">
                 <div className="profile-picture">
                     <img src={require("../../assets/me.jpg")} alt="Me"/>

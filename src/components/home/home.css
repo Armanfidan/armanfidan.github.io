@@ -112,6 +112,10 @@
         align-items: center;
         box-shadow: 0 0 40px 1px var(--colour-primary-shadow);
         overflow: scroll;
+        touch-action: pan-y;
+        cursor: grabbing;
+        -ms-touch-action: pan-y;
+        -webkit-overflow-scrolling: touch;
         left: var(--container-margin);
         right: var(--container-margin);
         border-radius: 2rem;
