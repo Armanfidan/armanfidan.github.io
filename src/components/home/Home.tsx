@@ -14,6 +14,12 @@ function Home() {
     let offsetHeight: number;
     let scrollHeight: number;
 
+    const enableSlideMovement = (enable: boolean) => {
+        verticalSwiper.allowTouchMove = enable;
+        verticalSwiper.allowSlideNext = enable;
+        verticalSwiper.allowSlidePrev = enable;
+    }
+
     const handleTouchStart = (event: TouchEvent<HTMLDivElement>) => {
         if (!homeContainer || !verticalSwiper) return;
         initial_position = event.touches[0].clientY;
@@ -28,19 +34,23 @@ function Home() {
         final_position = event.touches[0].clientY;
         const touch_delta = final_position - initial_position;
         const direction: 'up' | 'down' = touch_delta > 0 ? 'up' : 'down';
-        if ((scrollTop === 0 && direction === 'up') ||
-            (scrollTop + offsetHeight === scrollHeight && direction === 'down')) {
-            verticalSwiper.allowTouchMove = true;
-            verticalSwiper.allowSlideNext = true;
-            verticalSwiper.allowSlidePrev = true;
-        } else if ((scrollTop === 0 && direction === 'down') ||
-            (scrollTop !== 0 && scrollTop + offsetHeight !== scrollHeight) ||
-            (scrollTop + offsetHeight === scrollHeight && direction === 'up')) {
-            verticalSwiper.allowTouchMove = false;
-            verticalSwiper.allowSlideNext = false;
-            verticalSwiper.allowSlidePrev = false;
+        if ((scrollTop === 0 && direction === 'up') ||  // At the top scrolling up
+            (scrollTop + offsetHeight === scrollHeight && direction === 'down')) {  // At the bottom scrolling down
+            enableSlideMovement(true);
+        } else if ((scrollTop === 0 && direction === 'down') ||  // At the top scrolling down
+            (scrollTop !== 0 && scrollTop + offsetHeight !== scrollHeight) ||  // In the middle
+            (scrollTop + offsetHeight === scrollHeight && direction === 'up')) {  // At the bottom scrolling up
+            enableSlideMovement(false)
+            verticalSwiper.slideTo(1);
         }
     }
+
+    const prev = document.getElementById('prev-nav-button-vertical');
+    if (prev) prev.addEventListener('click', () => enableSlideMovement(true));
+    const next = document.getElementById('next-nav-button-vertical');
+    if (next) next.addEventListener('click', () => enableSlideMovement(true));
+    const cont = document.getElementById('go-to-contact');
+    if (cont) cont.addEventListener('click', () => enableSlideMovement(true));
 
     return (
         <div id="home-container" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}>

@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/ContactForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeButtons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +94,7 @@
       <workItem from="1672345416902" duration="32839000" />
       <workItem from="1672503043051" duration="2619000" />
       <workItem from="1672861159672" duration="7977000" />
-      <workItem from="1673121358570" duration="13233000" />
+      <workItem from="1673121358570" duration="17662000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -159,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673175024317</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed scrolling logic bug causing unintentional slide changes">
+      <created>1673177912351</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673177912351</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +219,7 @@
     <MESSAGE value="Redesigned home page, ready to be finalised when container is made scrollable." />
     <MESSAGE value="Made home container scrollable" />
     <MESSAGE value="Finalised home container scrolling logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalised home container scrolling logic" />
+    <MESSAGE value="Fixed scrolling logic bug causing unintentional slide changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed scrolling logic bug causing unintentional slide changes" />
   </component>
 </project>

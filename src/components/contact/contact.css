@@ -1,41 +1,50 @@
 .MuiFormHelperText-root {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .MuiFormLabel-root:active {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 #contact {
+    top: 0;
+    height: calc(100%);
     align-items: center;
-    align-content: center;
     text-align: center;
+    padding: 0 2rem 0 2rem;
+    overflow: scroll;
 }
 
-.contact-line {
+#contact h2 {
+    margin-top: 5rem;
+}
+
+.contact-method {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    line-height: 0;
     align-items: center;
 }
 
 .contact-form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
-    max-width: 100%;
-    gap: 2rem;
+    gap: 1rem;
     position: relative;
     padding: 2.5rem 2.5rem 1.5rem 2.5rem;
-    color: white;
+    color: black;
     transition: all 0.3s;
     border-radius: 2rem;
-    box-shadow: 0 0 25px 5px #0a0a18;
+    box-shadow: 0 0 25px 5px var(--colour-primary-shadow);
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
 
 @media screen and (max-width: 900px) {
+    #contact h2 {
+        margin-top: 3rem;
+    }
     .contact-form {
         grid-template-columns: 1fr;
         padding: 1rem;

@@ -10,6 +10,12 @@
     right: calc(10% + var(--container-margin));
     align-items: center;
     gap: 1rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#home-container::-webkit-scrollbar {
+    display: none;
 }
 
 .profile-card {

@@ -35,16 +35,16 @@ export default function ContactForm() {
     };
 
     const text_sx = {
-        input: {color: "white"},
-        label: {color: "white"},
+        input: {color: "black"},
+        label: {color: "black"},
         '& .MuiOutlinedInput-root': {
             '& fieldset': {
-                borderColor: 'white',
+                borderColor: 'black',
                 borderRadius: "0.8rem"
             },
             '&:hover fieldset': {
                 borderWidth: '2px',
-                borderColor: 'white',
+                borderColor: 'black',
             },
             '&.Mui-focused fieldset': {
                 borderColor: 'var(--colour-primary)',
@@ -103,8 +103,8 @@ export default function ContactForm() {
                         rows={5}
                         helperText="Message"
                         placeholder="Tell me something!"
-                        style={{color: "white", flex: 1}}
-                        inputProps={{style: {color: "white"}}}
+                        style={{color: "black", flex: 1}}
+                        inputProps={{style: {color: "black"}}}
                         onChange={e => setState({...state, message: e.target.value})}
                         sx={text_sx}
                     />
@@ -112,8 +112,8 @@ export default function ContactForm() {
                             sx={{
                                 height: "2.55rem",
                                 borderRadius: "0.7rem",
-                                borderColor: "white",
-                                color: "white",
+                                borderColor: "black",
+                                color: "black",
                                 "&:hover": {
                                     borderWidth: "2px",
                                     borderColor: "var(--colour-primary)",

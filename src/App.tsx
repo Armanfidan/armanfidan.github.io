@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 import CustomSwiper from "./components/nav/CustomSwiper";
 import NavButtons from "./components/nav/NavButtons";
 import Home from "./components/home/Home";
+import Contact from "./components/contact/Contact";
 
 SwiperCore.use([Scrollbar]);
 
@@ -22,7 +23,7 @@ function App() {
     // const slideTo = (index: number) => swiper.slideTo(index);
     return (
         <div className="App">
-            {slide ? <NavButtons slide={slide} buttonHandles={buttonHandles}/> : <></>}
+            <NavButtons slide={slide} buttonHandles={buttonHandles}/>
             <CustomSwiper
                 id="swiper-h"
                 allowTouchMove={true}
@@ -45,7 +46,7 @@ function App() {
                         wrongSlideChange={wrongSlideChange} setWrongSlideChange={setWrongSlideChange}>
                         <SwiperSlide data-hash="music">Music</SwiperSlide>
                         <SwiperSlide data-hash=""><Home/></SwiperSlide>
-                        <SwiperSlide data-hash="contact">Contact</SwiperSlide>
+                        <SwiperSlide data-hash="contact"><Contact/></SwiperSlide>
                     </CustomSwiper>
                 </SwiperSlide>
                 <SwiperSlide
