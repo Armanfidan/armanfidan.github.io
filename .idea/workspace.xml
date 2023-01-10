@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/events/Events.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/events/Events.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/events/events.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/events/events.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <workItem from="1672861159672" duration="7977000" />
       <workItem from="1673121358570" duration="21589000" />
       <workItem from="1673210392011" duration="8260000" />
-      <workItem from="1673348251482" duration="6929000" />
+      <workItem from="1673348251482" duration="7771000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673379169646</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Finalised events page, with the exception of past events - fill these in!">
+      <created>1673382280098</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673382280098</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +263,7 @@
     <MESSAGE value="Fixed scrolling/swiping bugs:&#10;- Cannot scroll on first swipe&#10;- Cannot swipe before waiting bouce animation to end" />
     <MESSAGE value="Applied scrolling and swiping fixes to contact page" />
     <MESSAGE value="Fleshed out events page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fleshed out events page" />
+    <MESSAGE value="Finalised events page, with the exception of past events - fill these in!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalised events page, with the exception of past events - fill these in!" />
   </component>
 </project>

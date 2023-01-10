@@ -83,13 +83,14 @@
 
 .aya-event {
     padding: 2rem;
-    border: 1px white solid;
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 1rem;
     margin-bottom: 2rem;
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
     gap: 1rem;
     align-items: center;
+    height: fit-content;
 }
 
 .aya-event hr {
