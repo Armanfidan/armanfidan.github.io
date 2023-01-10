@@ -11,6 +11,7 @@ import NavButtons from "./components/nav/NavButtons";
 import Home from "./components/home/Home";
 import Contact from "./components/contact/Contact";
 import Software from "./components/software/Software";
+import Events from "./components/events/Events";
 
 SwiperCore.use([Scrollbar]);
 
@@ -35,7 +36,7 @@ function App() {
                 <SwiperSlide
                     data-hash="events"
                     style={slide[0] === 1 && (slide[1] === 0 || slide[1] === 2) ? {visibility: "hidden"} : {}}>
-                    Events
+                    <Events/>
                 </SwiperSlide>
                 <SwiperSlide>
                     <CustomSwiper

@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/AYA_nights_logo_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/AYA_nights_logo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/aya_dj.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/aya_vibe.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/aya_vibe_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/events/Events.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/events/events.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nav/CustomSwiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/CustomSwiper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +62,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="deploy" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -89,7 +99,8 @@
       <workItem from="1672503043051" duration="2619000" />
       <workItem from="1672861159672" duration="7977000" />
       <workItem from="1673121358570" duration="21589000" />
-      <workItem from="1673210392011" duration="1301000" />
+      <workItem from="1673210392011" duration="8260000" />
+      <workItem from="1673348251482" duration="3780000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -189,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673211746599</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Applied scrolling and swiping fixes to contact page">
+      <created>1673212259045</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673212259045</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +257,7 @@
     <MESSAGE value="Implemented contact page" />
     <MESSAGE value="Implemented Software page, ready to insert content" />
     <MESSAGE value="Fixed scrolling/swiping bugs:&#10;- Cannot scroll on first swipe&#10;- Cannot swipe before waiting bouce animation to end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed scrolling/swiping bugs:&#10;- Cannot scroll on first swipe&#10;- Cannot swipe before waiting bouce animation to end" />
+    <MESSAGE value="Applied scrolling and swiping fixes to contact page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applied scrolling and swiping fixes to contact page" />
   </component>
 </project>

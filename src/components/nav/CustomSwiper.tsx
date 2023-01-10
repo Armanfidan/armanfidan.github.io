@@ -85,6 +85,10 @@ function CustomSwiper(props: Props) {
                     props.setWrongSlideChange(false);
                 }
             }}
+            onSlideChangeTransitionEnd={(swiper: SwiperClass) => {
+                if (props.direction === 'vertical' || swiper.snapIndex !== 0) return;
+
+            }}
         >
             {props.children}
         </Swiper>

@@ -8,6 +8,7 @@
 
 .nav-button {
     color: var(--colour-primary);
+    font-weight: 600;
     position: fixed;
     z-index: 5;
     transition: all 0.3s ease;
@@ -16,7 +17,6 @@
     gap: 0.5rem;
     align-items: center;
     text-transform: uppercase;
-    --button-margin: 20px;
 }
 
 .nav-button:hover {
@@ -67,8 +67,3 @@
     bottom: var(--button-margin);
 }
 
-@media screen and (max-width: 1024px) {
-    .nav-button {
-        --button-margin: 5px;
-    }
-}

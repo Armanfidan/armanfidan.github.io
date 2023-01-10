@@ -23,11 +23,17 @@ a {
 :root {
   --colour-bg: #fff;
   --colour-bg-variant: #ffd676;
-  --colour-primary: #2d9eff;
+  --colour-primary: #0072d2;
   --colour-primary-variant: #ff0000;
   --colour-text: #000;
   --colour-light: #dcdcdc;
   --colour-primary-shadow: rgba(0, 66, 119, 0.4);
 
+  --button-margin: 20px;
   --container-margin: 70px;
+}
+@media screen and (max-width: 1024px) {
+  :root {
+    --button-margin: 5px;
+  }
 }
