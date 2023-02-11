@@ -56,8 +56,11 @@ function Events() {
                     <h3>AYA Originals: The Return</h3>
                     <hr/>
                     <p>
-                        The much anticipated comeback for our original series with Turkish music.
-                        We cannot wait to share this event with you all!
+                        The first two events were just the beginning. We're excited to be back with
+                        the much anticipated comeback for our original series with Turkish music.
+                        <br/><br/>
+                        Join us on 23rd February for the next event in our flagship series, AYA Originals,
+                        where we will be joined by our DJ Jeremy Kohn with some amazing music.
                     </p>
                 </div>
                 <br/>

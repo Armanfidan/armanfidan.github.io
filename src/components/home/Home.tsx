@@ -56,7 +56,7 @@ function Home() {
         <div id="home-container" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}>
             <div className="container profile-card">
                 <div className="profile-picture">
-                    <img src={require("../../assets/me.jpg")} alt="Me"/>
+                    <img src={require("../../assets/me.png")} alt="Me"/>
                 </div>
                 <h2>Arman Fidanoglu</h2>
                 <h4 className="text-light">Software Engineer<br/>Event Organiser</h4>
@@ -66,16 +66,16 @@ function Home() {
             <hr className="divider"/>
             <div className="about-container">
                 <h1>Glad you're here.<br/>Here's who I am.</h1>
-                <p>I'm a recent Electrical and Electronic Engineering graduate from Imperial College London, and
-                    currently a Technology Analyst at Credit Suisse.
-                    The thing I like the most about myself is that I'm never satisfied with what I know - I have to
-                    keep
-                    learning and using new technologies.
+                <p>
+                    I’m a software engineer with experience in machine learning, systems design and frontend development.
+                    The thing I like the most about myself is that I'm never satisfied with what I know -
+                    I have to keep learning and using new technologies.
                     <br/><br/>
-                    I also enjoy playing the piano and guitar, producing music, snowboarding and wakeboarding, and
-                    most
-                    importantly, going to techno raves.
-                    Oh and I love beta testing stuff - sometimes I make my devices unusable though:(
+                    My biggest love in life is music, whether it be creating, listening or experiencing live.
+                    I love producing music and playing guitar, but raving is just as amazing.
+                    On top of this, I am a co-founder of AYA Nights, an events managements initiative aiming to bring
+                    similar people together in a nightclub setting. To summarise, here’s what I do:
+                    Designing and building things. Whether it be software, music or occasions to bring people together.
                 </p>
             </div>
         </div>
