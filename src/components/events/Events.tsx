@@ -60,7 +60,8 @@ function Events() {
                         the much anticipated comeback for our original series with Turkish music.
                         <br/><br/>
                         Join us on 23rd February for the next event in our flagship series, AYA Originals,
-                        where we will be joined by our DJ Jeremy Kohn with some amazing music.
+                        which is now better than ever - we will be joined by Sess Nişantaşı DJ Serkan Baykal,
+                        who will be bring his amazing music straight from Sess.
                     </p>
                 </div>
                 <br/>
@@ -71,14 +72,23 @@ function Events() {
                     <h3>AYA Originals: The Reunion</h3>
                     <hr/>
                     <p>
-                        Fill this in.
+                        We're upping the stakes - get ready for an entirely new level of event!
+                        For our second event, we're partnering with Libertine London, an amazing nightclub on
+                        Oxford Street.
+                        Prepare for table service, champagne shows and amazing music.
+                        <br/><br/>
+                        We can't wait to see all our lovely people at this event, where we are kicking off a new era!
                     </p>
+
                 </div>
                 <div className="aya-event">
                     <h3>AYA Originals: The Debut</h3>
                     <hr/>
                     <p>
-                        Fill this in.
+                        Prepare for Turkish music at the heart of London!
+                        Join us for an unforgettable night with
+                        amazing people and great music.
+                        We know you have been missing this in London, and we have decided it's time to have our nights back!
                     </p>
                 </div>
             </div>
