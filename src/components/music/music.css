@@ -1,0 +1,11 @@
+.music-container {
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 10%;
+    border-radius: 2rem;
+    width: fit-content;
+    box-shadow: 0 0 50px 1px var(--colour-primary-shadow);
+}

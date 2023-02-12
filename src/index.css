@@ -33,7 +33,7 @@ p {
   --colour-primary-variant: #ff0000;
   --colour-text: #000;
   --colour-light: #ffb2b2;
-  --colour-primary-shadow: rgba(0, 66, 119, 0.4);
+  --colour-primary-shadow: rgba(0, 0, 0, 0.25);
 
   --button-margin: 20px;
   --container-margin: 70px;

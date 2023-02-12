@@ -12,6 +12,7 @@ import Home from "./components/home/Home";
 import Contact from "./components/contact/Contact";
 import Software from "./components/software/Software";
 import Events from "./components/events/Events";
+import Music from "./components/music/Music";
 
 SwiperCore.use([Scrollbar]);
 
@@ -46,7 +47,7 @@ function App() {
                         direction="vertical"
                         slide={slide} setSlide={setSlide} setButtonHandles={setButtonHandles}
                         wrongSlideChange={wrongSlideChange} setWrongSlideChange={setWrongSlideChange}>
-                        <SwiperSlide data-hash="music">Music</SwiperSlide>
+                        <SwiperSlide data-hash="music"><Music/></SwiperSlide>
                         <SwiperSlide data-hash=""><Home/></SwiperSlide>
                         <SwiperSlide data-hash="contact"><Contact/></SwiperSlide>
                     </CustomSwiper>
