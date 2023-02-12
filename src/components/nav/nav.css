@@ -67,3 +67,28 @@
     bottom: var(--button-margin);
 }
 
+#tutorial-overlay {
+    display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    #tutorial-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        vertical-align: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        padding-top: 70%;
+        overflow: hidden;
+        /*font-size: 1.8rem;*/
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(25px);
+        /*color: white;*/
+        z-index: 100;
+    }
+}

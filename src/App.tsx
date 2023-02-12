@@ -13,6 +13,7 @@ import Contact from "./components/contact/Contact";
 import Software from "./components/software/Software";
 import Events from "./components/events/Events";
 import Music from "./components/music/Music";
+import TutorialOverlay from "./components/nav/TutorialOverlay";
 
 SwiperCore.use([Scrollbar]);
 
@@ -26,6 +27,7 @@ function App() {
     // const slideTo = (index: number) => swiper.slideTo(index);
     return (
         <div className="App">
+            <TutorialOverlay/>
             <NavButtons slide={slide} buttonHandles={buttonHandles}/>
             <CustomSwiper
                 id="swiper-h"

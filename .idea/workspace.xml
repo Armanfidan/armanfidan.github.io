@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="Filled in content for software and events sections">
-      <change afterPath="$PROJECT_DIR$/src/components/music/Music.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/music/music.css" afterDir="false" />
+    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/nav/TutorialOverlay.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -63,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="deploy" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -108,7 +107,7 @@
       <workItem from="1675707984676" duration="551000" />
       <workItem from="1675968515018" duration="12000" />
       <workItem from="1676113842092" duration="6765000" />
-      <workItem from="1676198198018" duration="1650000" />
+      <workItem from="1676198198018" duration="3097000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676198671226</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="implemented music coming soon component">
+      <created>1676199895493</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676199895493</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +319,7 @@
     <MESSAGE value="Changed event box backgrounds" />
     <MESSAGE value="Changed profile picture and intro text" />
     <MESSAGE value="Filled in content for software and events sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filled in content for software and events sections" />
+    <MESSAGE value="implemented music coming soon component" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented music coming soon component" />
   </component>
 </project>
