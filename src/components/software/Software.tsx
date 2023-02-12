@@ -29,8 +29,7 @@ function Software() {
                     <br/><br/>
                     <a className="btn" href={require('../../assets/af5918_final_report.pdf')}>Project
                         Thesis</a><br/><br/>
-                    <a className="btn" href="https://github.com/Armanfidan/auto_grasp.git">GitHub repository for
-                        AutoGrasp package</a>
+                    <a className="btn" href="https://github.com/Armanfidan/auto_grasp.git">GitHub repository</a>
                 </CollapsibleCard>
                 <CollapsibleCard
                     id="hlp_card" title="ISSIE Logic Simulator: Adaptive Circuit Rendering Library" date="2021"
@@ -48,8 +47,7 @@ function Software() {
                     which replaced the old rendering library and significantly improved performance when rendering
                     components.
                     <br/><br/>
-                    <a className="btn" href="https://github.com/Armanfidan/issie-draw-block">GitHub repository for
-                        project</a>
+                    <a className="btn" href="https://github.com/Armanfidan/issie-draw-block">GitHub repository</a>
                 </CollapsibleCard>
                 <CollapsibleCard
                     id="visuaid_card" title="VisuAid" date="2020"
@@ -68,8 +66,7 @@ function Software() {
                     <br/><br/>
                     <a className="btn" href={require('../../assets/af5918_final_report.pdf')}>Project
                         report</a><br/><br/>
-                    <a className="btn" href="https://github.com/saucena/blind-app">GitHub repository for device control
-                        app</a>
+                    <a className="btn" href="https://github.com/saucena/blind-app">GitHub repository</a>
                 </CollapsibleCard>
                 <CollapsibleCard
                     id="rover_card" title="Rover" date="2019"
@@ -86,7 +83,7 @@ function Software() {
                     network.
                     The communication interface on the microcontroller is written in C++.
                     <br/><br/>
-                    <a className="btn" href="https://github.com/Armanfidan/rover">GitHub repository for Android application</a>
+                    <a className="btn" href="https://github.com/Armanfidan/rover">GitHub repository</a>
                 </CollapsibleCard>
                 <CollapsibleCard
                     id="malafatus_card" title='"Malafatus"' date="2020"
@@ -108,7 +105,7 @@ function Software() {
                     This app was written in Java and integrates with Google Firebase to provide user authentication
                     and cloud storage for user data.
                     <br/><br/>
-                    <a className="btn" href="https://github.com/Armanfidan/malafatus">GitHub repository for project</a>
+                    <a className="btn" href="https://github.com/Armanfidan/malafatus">GitHub repository</a>
                 </CollapsibleCard>
                 <hr style={{
                     background: "var(--colour-primary)",
@@ -126,8 +123,7 @@ function Software() {
                     Building this navigation system was difficult, but proved to be a great exercise.
                     TypeScript was chosen over JavaScript due to being strongly typed and more robust.
                     <br/><br/>
-                    <a className="btn" href="https://github.com/Armanfidan/armanfidan.github.io">GitHub Repository for
-                        website</a>
+                    <a className="btn" href="https://github.com/Armanfidan/armanfidan.github.io">GitHub Repository</a>
                 </CollapsibleCard>
             </div>
         </section>

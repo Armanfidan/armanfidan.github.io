@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/nav/TutorialOverlay.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/software/Software.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/software/Software.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -107,7 +105,7 @@
       <workItem from="1675707984676" duration="551000" />
       <workItem from="1675968515018" duration="12000" />
       <workItem from="1676113842092" duration="6765000" />
-      <workItem from="1676198198018" duration="3097000" />
+      <workItem from="1676198198018" duration="3624000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -263,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676199895493</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Implemented disappearing tutorial overlay">
+      <created>1676201410453</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676201410453</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +325,7 @@
     <MESSAGE value="Changed profile picture and intro text" />
     <MESSAGE value="Filled in content for software and events sections" />
     <MESSAGE value="implemented music coming soon component" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented music coming soon component" />
+    <MESSAGE value="Implemented disappearing tutorial overlay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented disappearing tutorial overlay" />
   </component>
 </project>
