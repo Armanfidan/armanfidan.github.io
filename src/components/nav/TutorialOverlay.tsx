@@ -10,7 +10,7 @@ export default function TutorialOverlay() {
     }
 
     return (
-        <div id="tutorial-overlay" onClick={handleDisappearing}>
+        <div id="tutorial-overlay" onTouchStart={handleDisappearing}>
             <MdSwipe style={{fontSize: '2rem'}}/>
             <b>
             Swipe anywhere to navigate pages
