@@ -59,7 +59,7 @@ function Home() {
                     <img src={require("../../assets/me.png")} alt="Me"/>
                 </div>
                 <h2>Arman Fidanoglu</h2>
-                <h4 className="text-light">Software Engineer<br/>Event Organiser</h4>
+                <h4 className="text-light">Software Engineer</h4>
                 <HomeButtons/>
                 <Socials/>
             </div>

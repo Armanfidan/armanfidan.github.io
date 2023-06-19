@@ -19,10 +19,10 @@ function Events() {
             <div id="aya-content">
                 <h2>Event Management</h2>
                 <p>
-                    As a partner in the event management initiative, <b style={{color: 'var(--colour-primary-light)'}}>AYA Nights</b>, I organise nightclub events in various
-                    popular venues across London.
+                    In my free time, I work on my event management initiative, <b style={{color: 'var(--colour-primary-light)'}}>AYA Nights</b>,
+                    where I organise nightclub events in various popular venues across London.
                     By partnering with high-end venues and designing a welcoming and lively space,
-                    we create a friendly atmosphere where a diverse crowd of young professionals can get together and
+                    we create a friendly atmosphere where a diverse crowd of students and young professionals can get together and
                     party.
                 </p>
                 <h3>Our Vision and Mission</h3>

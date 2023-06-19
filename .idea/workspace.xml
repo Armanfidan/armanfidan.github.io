@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
+    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="Tutorial overlay now disappeears on touch start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/TutorialOverlay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/TutorialOverlay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/events/Events.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/events/Events.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,11 @@
       <workItem from="1676113842092" duration="6765000" />
       <workItem from="1676198198018" duration="4108000" />
       <workItem from="1676492800599" duration="105000" />
-      <workItem from="1676554630860" duration="226000" />
+      <workItem from="1676554630860" duration="342000" />
+      <workItem from="1676662198674" duration="13000" />
+      <workItem from="1676823641401" duration="173000" />
+      <workItem from="1677421939248" duration="17000" />
+      <workItem from="1687183052974" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -278,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676201852284</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Tutorial overlay now disappeears on touch start">
+      <created>1676554895541</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676554895541</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +348,7 @@
     <MESSAGE value="implemented music coming soon component" />
     <MESSAGE value="Implemented disappearing tutorial overlay" />
     <MESSAGE value="Fixed software bug of widening components on mobile devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed software bug of widening components on mobile devices" />
+    <MESSAGE value="Tutorial overlay now disappeears on touch start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tutorial overlay now disappeears on touch start" />
   </component>
 </project>
