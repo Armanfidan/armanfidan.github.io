@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2009f45d.css",
-    "main.js": "/static/js/main.9375d4d4.js",
+    "main.js": "/static/js/main.14ce20e9.js",
     "static/js/787.08eb8396.chunk.js": "/static/js/787.08eb8396.chunk.js",
     "static/media/snek.png": "/static/media/snek.c77afcfea71b0d1e9f69.png",
     "static/media/af5918_final_report.pdf": "/static/media/af5918_final_report.4425ee1dd1745536f4ca.pdf",
     "static/media/me.png": "/static/media/me.d179a91c90dadeabeed5.png",
     "static/media/aya_dj.jpeg": "/static/media/aya_dj.a4e2d30d5852816acd1c.jpeg",
     "static/media/aya_vibe_2.jpeg": "/static/media/aya_vibe_2.63b4c842fc737b863bd6.jpeg",
-    "static/media/CV_Arman_Fidanoglu_June_2023.pdf": "/static/media/CV_Arman_Fidanoglu_June_2023.31fb2c36ee5148d8aa7a.pdf",
+    "static/media/CV_Arman_Fidanoglu_Sep_2023.pdf": "/static/media/CV_Arman_Fidanoglu_Sep_2023.9dc4d868098c20d857d1.pdf",
     "static/media/AYA_nights_logo_white.png": "/static/media/AYA_nights_logo_white.ec860136cd53a66fc941.png",
     "static/media/visuaid.jpeg": "/static/media/visuaid.60c321b7050ef81aaa0d.jpeg",
     "static/media/malafatus.jpeg": "/static/media/malafatus.d0d1b5291bccffd97a50.jpeg",
@@ -16,11 +16,11 @@
     "static/media/rover.jpg": "/static/media/rover.25f83bf8e757f93e5bd8.jpg",
     "index.html": "/index.html",
     "main.2009f45d.css.map": "/static/css/main.2009f45d.css.map",
-    "main.9375d4d4.js.map": "/static/js/main.9375d4d4.js.map",
+    "main.14ce20e9.js.map": "/static/js/main.14ce20e9.js.map",
     "787.08eb8396.chunk.js.map": "/static/js/787.08eb8396.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2009f45d.css",
-    "static/js/main.9375d4d4.js"
+    "static/js/main.14ce20e9.js"
   ]
 }
