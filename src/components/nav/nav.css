@@ -85,10 +85,8 @@
         gap: 2rem;
         padding-top: 70%;
         overflow: hidden;
-        /*font-size: 1.8rem;*/
         background: rgba(255, 255, 255, 0.3);
         backdrop-filter: blur(25px);
-        /*color: white;*/
         z-index: 100;
     }
 }
