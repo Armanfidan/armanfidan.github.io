@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/af_logo.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/CNAME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/af_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/af_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +35,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "v3",
-    "last_opened_file_path": "/Users/arfi/Documents/armanfidan.github.io/public",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.general",
-    "ts.external.directory.path": "/Users/arfi/Documents/armanfidan.github.io/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/arfi/Documents/armanfidan.github.io/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/arfi/Documents/armanfidan.github.io/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -120,7 +115,8 @@
       <workItem from="1677421939248" duration="17000" />
       <workItem from="1687183052974" duration="3214000" />
       <workItem from="1695735519367" duration="2522000" />
-      <workItem from="1695747182730" duration="303000" />
+      <workItem from="1695747182730" duration="705000" />
+      <workItem from="1695748880810" duration="169000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -319,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695739143788</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Changed icon">
+      <option name="closed" value="true" />
+      <created>1695747589992</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1695747589992</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +359,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Improved solution to prevent re-routing to home page. The solution is slightly unreliable and some navigation buttons re-appear on wrong slide changes, though." />
     <MESSAGE value="Fixed button re-appearing problem and simplified navigation css file" />
     <MESSAGE value="Styled navigation buttons and hid events and software pages when on contact and music pages to support the prevention of accidental scrolling" />
     <MESSAGE value="Copied over and made initial adjustments to home page" />
@@ -380,6 +383,7 @@
     <MESSAGE value="Removed event manager from home screen" />
     <MESSAGE value="Updated CV" />
     <MESSAGE value="Updated CV, removed &quot;Let's Talk&quot; button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated CV, removed &quot;Let's Talk&quot; button" />
+    <MESSAGE value="Changed icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed icon" />
   </component>
 </project>
