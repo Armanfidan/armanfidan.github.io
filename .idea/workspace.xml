@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="Updated music page">
+      <change afterPath="$PROJECT_DIR$/src/assets/cv_arman_fidanoglu_dec_2023.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/music/Music.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/music/Music.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/CV_Arman_Fidanoglu_Sep_2023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeButtons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/socials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/socials.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +126,7 @@
       <workItem from="1695748880810" duration="486000" />
       <workItem from="1696581235012" duration="378000" />
       <workItem from="1696585462451" duration="115000" />
-      <workItem from="1702986810066" duration="5264000" />
+      <workItem from="1702986810066" duration="5644000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -363,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702992704980</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Updated music page">
+      <option name="closed" value="true" />
+      <created>1702992798728</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1702992798728</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
