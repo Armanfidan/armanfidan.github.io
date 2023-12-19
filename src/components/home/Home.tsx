@@ -56,7 +56,7 @@ function Home() {
         <div id="home-container" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}>
             <div className="container profile-card">
                 <div className="profile-picture">
-                    <img src={require("../../assets/me.png")} alt="Me"/>
+                    <img src={require("../../assets/IMG_2092_edited.png")} alt="Me"/>
                 </div>
                 <h2>Arman Fidanoglu</h2>
                 <h4 className="text-light">Software Engineer</h4>
@@ -67,15 +67,18 @@ function Home() {
             <div className="about-container">
                 <h1>Glad you're here.<br/>Here's who I am.</h1>
                 <p>
-                    I’m a software engineer with experience in machine learning, systems design and frontend development.
-                    The thing I like the most about myself is that I'm never satisfied with what I know -
-                    I have to keep learning and using new technologies.
+                    Welcome to my personal website!
+                    I’m currently a backend software engineer at UBS.
                     <br/><br/>
-                    My biggest love in life is music, whether it be creating, listening or experiencing live.
-                    I love producing music and playing guitar, but raving is just as amazing.
-                    On top of this, I am a co-founder of AYA Nights, an events managements initiative aiming to bring
-                    similar people together in a nightclub setting. To summarise, here’s what I do:
-                    Designing and building things. Whether it be software, music or occasions to bring people together.
+                    Here are some facts about me:
+                    <ul>
+                        <li>I'm a backend software engineer with experience working on large-scale trade systems</li>
+                        <li>I handle uncertainty well (Navigating Credit Suisse in 2023 was an experience!)</li>
+                        <li>I have a passion for bringing people together in places with music by organising large-scale events through UBS and AYA Nights - find out more on the Events page!</li>
+                        <li>I'd say the thing that takes most of my free time is my a passion for music. I love creating and listening to music - don't forget to check out my Music page on this site!</li>
+                    </ul>
+                    To summarise, here’s what I do:
+                    Designing and building things. Whether it be software, music or occasions to bring people together on.
                 </p>
             </div>
         </div>
