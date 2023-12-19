@@ -6,8 +6,8 @@
     position: absolute;
     top: var(--container-margin);
     bottom: var(--container-margin);
-    left: calc(10% + var(--container-margin));
-    right: calc(10% + var(--container-margin));
+    left: calc(5% + var(--container-margin));
+    right: calc(5% + var(--container-margin));
     align-items: center;
     gap: 1rem;
     scrollbar-width: none;
@@ -107,6 +107,7 @@
 .divider {
     display: none;
     width: 50%;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -163,8 +164,9 @@
     }
 
     .about-container h1 {
-        font-size: 7vw;
+        font-size: 6vw;
         line-height: 7vw;
+        margin: 0 0 5vw 0;
     }
 
     .divider {

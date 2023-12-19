@@ -49,8 +49,6 @@ function Home() {
     if (prev) prev.addEventListener('click', () => enableSlideMovement(true));
     const next = document.getElementById('next-nav-button-vertical');
     if (next) next.addEventListener('click', () => enableSlideMovement(true));
-    const cont = document.getElementById('go-to-contact');
-    if (cont) cont.addEventListener('click', () => enableSlideMovement(true));
 
     return (
         <div id="home-container" onTouchStart={handleTouchStart} onTouchMove={handleTouchMove}>
