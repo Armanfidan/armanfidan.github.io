@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/music/Music.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/music/Music.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/music/music.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/music/music.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,7 @@
       <workItem from="1695748880810" duration="486000" />
       <workItem from="1696581235012" duration="378000" />
       <workItem from="1696585462451" duration="115000" />
-      <workItem from="1702986810066" duration="5158000" />
+      <workItem from="1702986810066" duration="5264000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -356,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702990855464</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Updated music page">
+      <option name="closed" value="true" />
+      <created>1702992704980</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1702992704980</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

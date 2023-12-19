@@ -87,7 +87,6 @@
     font-size: 0.9rem;
     font-weight: bold;
     border: 1px solid transparent;
-    transition: var(--transition);
 }
 
 .btn:hover {

@@ -80,11 +80,11 @@ export default function Music() {
             </div>
             <div className="about-container">
             <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1687220250&color=%23ad8500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1687220250&color=%23ad8500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
             <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1686982074&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1686982074&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
             <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1686750855&color=%2300c5de&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1686750855&color=%2300c5de&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
             </div>
         </div>
     );
