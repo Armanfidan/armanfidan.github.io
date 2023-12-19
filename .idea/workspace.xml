@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="Updated AYA Nights page">
-      <change afterPath="$PROJECT_DIR$/src/assets/IMG_2092_edited.png" afterDir="false" />
+    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="Updated music page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/music/Music.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/music/Music.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/music/music.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/music/music.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +125,7 @@
       <workItem from="1695748880810" duration="486000" />
       <workItem from="1696581235012" duration="378000" />
       <workItem from="1696585462451" duration="115000" />
-      <workItem from="1702986810066" duration="3321000" />
+      <workItem from="1702986810066" duration="5158000" />
     </task>
     <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
       <created>1672396442478</created>
@@ -347,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702989534625</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Updated home page">
+      <option name="closed" value="true" />
+      <created>1702990855463</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702990855464</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,8 +392,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Copied over and made initial adjustments to home page" />
-    <MESSAGE value="Redesigned home page to be more responsive." />
     <MESSAGE value="Redesigned home page, ready to be finalised when container is made scrollable." />
     <MESSAGE value="Made home container scrollable" />
     <MESSAGE value="Finalised home container scrolling logic" />
@@ -408,6 +415,8 @@
     <MESSAGE value="Changed icon" />
     <MESSAGE value="Added CNAME file" />
     <MESSAGE value="Updated AYA Nights page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated AYA Nights page" />
+    <MESSAGE value="Updated home page" />
+    <MESSAGE value="Updated music page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated music page" />
   </component>
 </project>
