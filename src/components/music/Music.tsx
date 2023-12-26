@@ -91,6 +91,9 @@ export default function Music() {
                 <br/><br/>
                 <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1686750855&color=%2300c5de&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+                <br/><br/>
+                <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1700074692&color=%233e72c8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             </div>
         </div>
     );
