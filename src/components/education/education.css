@@ -1,0 +1,35 @@
+.education_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#imperial_card {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5e7d286efe638310b936a175/1596923885443-TABNOQYHK1HALB0XO3TK/Main_Entrance_and_Sign%2C_Imperial_College_London%2C_Exhibition_Road_in_spring.jpg?format=1000w');
+}
+
+#msgsu_card {
+    background-image: url('https://msgsu.edu.tr/wp-content/uploads/2022/02/08_Konservatuvar-2.png');
+    background-size: 70%;
+    background-position: 0 20%;
+}
+
+#enka_card {
+    background-image: url('https://www.kindpng.com/picc/m/180-1803105_enka-schools-logo-pantone-yeni-02-enka-schools.png');
+    background-size: 30%;
+}
+
+#skills_card {
+    background: var(--colour-bg-variant);
+}
+
+/*!* MEDIA QUERIES *!*/
+@media screen and (max-width: 750px) {
+    .education_cards {
+        gap: 1.5rem
+    }
+
+    #enka_card, #imperial_card, #msgsu_card, #skills_card {
+        background: none;
+    }
+}

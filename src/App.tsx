@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
+import {HashRouter, Routes, Route} from "react-router-dom";
 
 import {SwiperSlide} from "swiper/react";
 import SwiperCore, { Scrollbar } from 'swiper';
@@ -65,4 +66,19 @@ function App() {
         ;
 }
 
-export default App;
+export default function App() {
+    return (
+        <HashRouter>
+            <Routes>
+                <Route path="/" element={<Nav/>}>
+                    <Route index element={<Home/>}/>
+                    <Route path="/education" element={<Education/>}/>
+                    <Route path="/experience" element={<Experience/>}/>
+                    <Route path="/projects" element={<Projects/>}/>
+                    <Route path="/contact" element={<Contact/>}/>
+                    <Route path="*" element={<Home/>}/>
+                </Route>
+            </Routes>
+        </HashRouter>
+    );
+}
