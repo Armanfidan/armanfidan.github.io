@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="Fixed margins and page scrolling">
+    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="Updated CV, music and projects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/music/Music.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/music/Music.tsx" afterDir="false" />
-
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +15,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
       </list>
@@ -32,14 +28,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Armanfidan/armanfidan.github.io.git",
+    "accountId": "d500578b-c046-4bf8-afaa-f4bccf151e62"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
-
   <component name="ProjectId" id="2JN5JmQ4Al1JjUw2LLqrsINR2q4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,10 +51,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-
     "git-widget-placeholder": "v3",
     "last_opened_file_path": "/Users/arfi/Documents/armanfidan.github.io/public",
     "list.type.of.created.stylesheet": "CSS",
@@ -66,13 +66,11 @@
     "npm.start.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Users/arfi/WebstormProjects/armanfidan.github.io/node_modules/typescript/lib",
-
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/build" />
     </key>
@@ -80,9 +78,8 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" nameIsGenerated="true">
-
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -92,7 +89,6 @@
       <envs />
       <method v="2" />
     </configuration>
-
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -101,11 +97,9 @@
       <method v="2" />
     </configuration>
     <list>
-
       <item itemvalue="npm.deploy" />
       <item itemvalue="npm.start" />
     </list>
-
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -405,8 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702999570488</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
-
+    <task id="LOCAL-00037" summary="Updated CV, music and projects">
+      <option name="closed" value="true" />
+      <created>1725444920904</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1725444920904</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,8 +443,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-
-    <MESSAGE value="Finalised home container scrolling logic" />
     <MESSAGE value="Fixed scrolling logic bug causing unintentional slide changes" />
     <MESSAGE value="Implemented contact page" />
     <MESSAGE value="Implemented Software page, ready to insert content" />
@@ -468,7 +467,7 @@
     <MESSAGE value="Updated music page" />
     <MESSAGE value="Updated links and CV" />
     <MESSAGE value="Fixed margins and page scrolling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed margins and page scrolling" />
-
+    <MESSAGE value="Updated CV, music and projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated CV, music and projects" />
   </component>
 </project>
