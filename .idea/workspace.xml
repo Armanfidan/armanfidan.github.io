@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="">
+
+    <list default="true" id="ea0a6c35-d0cf-4939-b6ea-1a1ec534b0eb" name="Changes" comment="Fixed margins and page scrolling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/music/Music.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/music/Music.tsx" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,36 +18,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
+
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="e1757aee-00d7-4f80-9ae4-8460c67f6ea8" />
-        <option name="url" value="https://github.com/Armanfidan/armanfidan.github.io.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+
   <component name="ProjectId" id="2JN5JmQ4Al1JjUw2LLqrsINR2q4" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -59,45 +54,35 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/arfi/Documents/armanfidan.github.io/src/assets",
+
+    "git-widget-placeholder": "v3",
+    "last_opened_file_path": "/Users/arfi/Documents/armanfidan.github.io/public",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
-    "ts.external.directory.path": "/Users/arfi/Documents/armanfidan.github.io/node_modules/typescript/lib",
+    "npm.deploy.executor": "Run",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/arfi/WebstormProjects/armanfidan.github.io/node_modules/typescript/lib",
+
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets" />
+
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/components/card" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
-    <configuration name="deploy" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="gh-pages -d build" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="/bin/zsh" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="false" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="deploy" type="js.build_tools.npm" nameIsGenerated="true">
+
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -107,16 +92,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="predeploy" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="predeploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -125,16 +101,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.start" />
-      <item itemvalue="npm.predeploy" />
+
       <item itemvalue="npm.deploy" />
-      <item itemvalue="Shell Script.deploy" />
+      <item itemvalue="npm.start" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.deploy" />
-      </list>
-    </recent_temporary>
+
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -145,137 +116,297 @@
       <option name="presentableId" value="Default" />
       <updated>1671905631498</updated>
       <workItem from="1671905632941" duration="13000" />
-      <workItem from="1671905794192" duration="3075000" />
-      <workItem from="1671909042261" duration="6869000" />
-      <workItem from="1671919910752" duration="95824000" />
+      <workItem from="1671905794192" duration="274000" />
+      <workItem from="1672345416902" duration="32839000" />
+      <workItem from="1672503043051" duration="2619000" />
+      <workItem from="1672861159672" duration="7977000" />
+      <workItem from="1673121358570" duration="21589000" />
+      <workItem from="1673210392011" duration="8260000" />
+      <workItem from="1673348251482" duration="9710000" />
+      <workItem from="1674363324386" duration="1155000" />
+      <workItem from="1674658748887" duration="171000" />
+      <workItem from="1675437193031" duration="944000" />
+      <workItem from="1675707984676" duration="551000" />
+      <workItem from="1675968515018" duration="12000" />
+      <workItem from="1676113842092" duration="6765000" />
+      <workItem from="1676198198018" duration="4108000" />
+      <workItem from="1676492800599" duration="105000" />
+      <workItem from="1676554630860" duration="342000" />
+      <workItem from="1676662198674" duration="13000" />
+      <workItem from="1676823641401" duration="173000" />
+      <workItem from="1677421939248" duration="17000" />
+      <workItem from="1687183052974" duration="3214000" />
+      <workItem from="1695735519367" duration="2522000" />
+      <workItem from="1695747182730" duration="705000" />
+      <workItem from="1695748880810" duration="486000" />
+      <workItem from="1696581235012" duration="378000" />
+      <workItem from="1696585462451" duration="115000" />
+      <workItem from="1702986810066" duration="8494000" />
+      <workItem from="1703602890870" duration="59000" />
     </task>
-    <task id="LOCAL-00001" summary="Added basic styles, created header component">
-      <created>1671914124841</created>
+    <task id="LOCAL-00001" summary="Finalised basic navigation system mechanics">
+      <created>1672396442478</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1671914124841</updated>
+      <updated>1672396442478</updated>
     </task>
-    <task id="LOCAL-00002" summary="Created nav component">
-      <created>1671922764343</created>
+    <task id="LOCAL-00002" summary="Added temporary fix for being able to swipe from music and contact that redirects user to home page">
+      <created>1672424174536</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1671922764343</updated>
+      <updated>1672424174536</updated>
     </task>
-    <task id="LOCAL-00003" summary="Created placeholders for experience and projects sections, built site for testing">
-      <created>1671968988915</created>
+    <task id="LOCAL-00003" summary="Improved solution to prevent re-routing to home page. The solution is slightly unreliable and some navigation buttons re-appear on wrong slide changes, though.">
+      <created>1672427195392</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1671968988915</updated>
+      <updated>1672427195392</updated>
     </task>
-    <task id="LOCAL-00004" summary="Finalised home section and refined sections">
-      <created>1671986434369</created>
+    <task id="LOCAL-00004" summary="Fixed button re-appearing problem and simplified navigation css file">
+      <created>1672427813953</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1671986434369</updated>
+      <updated>1672427813953</updated>
     </task>
-    <task id="LOCAL-00005" summary="Added scripts to deploy site">
-      <created>1671987435085</created>
+    <task id="LOCAL-00005" summary="Styled navigation buttons and hid events and software pages when on contact and music pages to support the prevention of accidental scrolling">
+      <created>1672432868196</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1671987435085</updated>
+      <updated>1672432868196</updated>
     </task>
-    <task id="LOCAL-00006" summary="Finalised boxes in education section, ready for content">
-      <created>1672001121087</created>
+    <task id="LOCAL-00006" summary="Copied over and made initial adjustments to home page">
+      <created>1672439738481</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1672001121087</updated>
+      <updated>1672439738481</updated>
     </task>
-    <task id="LOCAL-00007" summary="Added skills box template in education">
-      <created>1672003412233</created>
+    <task id="LOCAL-00007" summary="Redesigned home page to be more responsive.">
+      <created>1673023769334</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1672003412233</updated>
+      <updated>1673023769334</updated>
     </task>
-    <task id="LOCAL-00008" summary="fixed navigation bar z-index issue">
-      <created>1672003497134</created>
+    <task id="LOCAL-00008" summary="Redesigned home page, ready to be finalised when container is made scrollable.">
+      <created>1673123642816</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1672003497134</updated>
+      <updated>1673123642816</updated>
     </task>
-    <task id="LOCAL-00009" summary="fixed navigation bar z-index issue">
-      <created>1672003606644</created>
+    <task id="LOCAL-00009" summary="Made home container scrollable">
+      <created>1673124018392</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1672003606644</updated>
+      <updated>1673124018392</updated>
     </task>
-    <task id="LOCAL-00010" summary="Education cards now have a variable length.">
-      <created>1672069632485</created>
+    <task id="LOCAL-00010" summary="Finalised home container scrolling logic">
+      <created>1673175024317</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1672069632485</updated>
+      <updated>1673175024317</updated>
     </task>
-    <task id="LOCAL-00011" summary="Switched EducationCard implementation to MUI, finalised card design">
-      <created>1672082709932</created>
+    <task id="LOCAL-00011" summary="Fixed scrolling logic bug causing unintentional slide changes">
+      <created>1673177912351</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1672082709932</updated>
+      <updated>1673177912351</updated>
     </task>
-    <task id="LOCAL-00012" summary="Refactored EducationCard to be more generic, made subtitles optional">
-      <created>1672088500479</created>
+    <task id="LOCAL-00012" summary="Implemented contact page">
+      <created>1673184069672</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1672088500479</updated>
+      <updated>1673184069672</updated>
     </task>
-    <task id="LOCAL-00013" summary="Refined education, experience and projects sections">
-      <created>1672094719676</created>
+    <task id="LOCAL-00013" summary="Implemented Software page, ready to insert content">
+      <created>1673187074789</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1672094719676</updated>
+      <updated>1673187074789</updated>
     </task>
-    <task id="LOCAL-00014" summary="Fixed bug causing date to be misplaced on mobile devices">
-      <created>1672095420425</created>
+    <task id="LOCAL-00014" summary="Fixed scrolling/swiping bugs:&#10;- Cannot scroll on first swipe&#10;- Cannot swipe before waiting bouce animation to end">
+      <created>1673211746598</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1672095420425</updated>
+      <updated>1673211746599</updated>
     </task>
-    <task id="LOCAL-00015" summary="Fixed issues with background pictures moving unnecessarily when sizing window, added some content">
-      <created>1672096423432</created>
+    <task id="LOCAL-00015" summary="Applied scrolling and swiping fixes to contact page">
+      <created>1673212259045</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1672096423432</updated>
+      <updated>1673212259045</updated>
     </task>
-    <task id="LOCAL-00016" summary="Redesigned page routing using react-router">
-      <created>1672140975768</created>
+    <task id="LOCAL-00016" summary="Fleshed out events page">
+      <created>1673379169646</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1672140975768</updated>
+      <updated>1673379169646</updated>
     </task>
-    <task id="LOCAL-00017" summary="Attempted to fix GitHub routing problem by switching to HashRouter">
-      <created>1672146511979</created>
+    <task id="LOCAL-00017" summary="Finalised events page, with the exception of past events - fill these in!">
+      <created>1673382280098</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1672146511979</updated>
+      <updated>1673382280098</updated>
     </task>
-    <task id="LOCAL-00018" summary="Finalised ContactForm card">
-      <created>1672162939869</created>
+    <task id="LOCAL-00018" summary="Changed event box backgrounds">
+      <created>1673383157111</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1672162939869</updated>
+      <updated>1673383157111</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Changed event box backgrounds">
+      <created>1673384245096</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673384245096</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Changed profile picture and intro text">
+      <created>1676152861198</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676152861198</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Filled in content for software and events sections">
+      <created>1676198671226</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1676198671226</updated>
+    </task>
+    <task id="LOCAL-00022" summary="implemented music coming soon component">
+      <created>1676199895493</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676199895493</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Implemented disappearing tutorial overlay">
+      <created>1676201410453</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676201410453</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fixed software bug of widening components on mobile devices">
+      <created>1676201852284</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676201852284</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Tutorial overlay now disappeears on touch start">
+      <created>1676554895541</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676554895541</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Removed event manager from home screen">
+      <created>1687183166137</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687183166137</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Updated CV">
+      <created>1687183520676</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687183520676</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Updated CV, removed &quot;Let's Talk&quot; button">
+      <option name="closed" value="true" />
+      <created>1695739143788</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1695739143788</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Changed icon">
+      <option name="closed" value="true" />
+      <created>1695747589992</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1695747589992</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added CNAME file">
+      <option name="closed" value="true" />
+      <created>1695749073508</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1695749073509</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Updated AYA Nights page">
+      <option name="closed" value="true" />
+      <created>1702989534625</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1702989534625</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Updated home page">
+      <option name="closed" value="true" />
+      <created>1702990855463</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702990855464</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Updated music page">
+      <option name="closed" value="true" />
+      <created>1702992704980</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1702992704980</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Updated music page">
+      <option name="closed" value="true" />
+      <created>1702992798728</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1702992798728</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Updated links and CV">
+      <option name="closed" value="true" />
+      <created>1702997192110</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1702997192110</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Fixed margins and page scrolling">
+      <option name="closed" value="true" />
+      <created>1702999570488</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1702999570488</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +417,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -294,23 +442,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added basic styles, created header component" />
-    <MESSAGE value="Created nav component" />
-    <MESSAGE value="Created placeholders for experience and projects sections, built site for testing" />
-    <MESSAGE value="Finalised home section and refined sections" />
-    <MESSAGE value="Added scripts to deploy site" />
-    <MESSAGE value="Finalised boxes in education section, ready for content" />
-    <MESSAGE value="Added skills box template in education" />
-    <MESSAGE value="fixed navigation bar z-index issue" />
-    <MESSAGE value="Education cards now have a variable length." />
-    <MESSAGE value="Switched EducationCard implementation to MUI, finalised card design" />
-    <MESSAGE value="Refactored EducationCard to be more generic, made subtitles optional" />
-    <MESSAGE value="Refined education, experience and projects sections" />
-    <MESSAGE value="Fixed bug causing date to be misplaced on mobile devices" />
-    <MESSAGE value="Fixed issues with background pictures moving unnecessarily when sizing window, added some content" />
-    <MESSAGE value="Redesigned page routing using react-router" />
-    <MESSAGE value="Attempted to fix GitHub routing problem by switching to HashRouter" />
-    <MESSAGE value="Finalised ContactForm card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalised ContactForm card" />
+
+    <MESSAGE value="Finalised home container scrolling logic" />
+    <MESSAGE value="Fixed scrolling logic bug causing unintentional slide changes" />
+    <MESSAGE value="Implemented contact page" />
+    <MESSAGE value="Implemented Software page, ready to insert content" />
+    <MESSAGE value="Fixed scrolling/swiping bugs:&#10;- Cannot scroll on first swipe&#10;- Cannot swipe before waiting bouce animation to end" />
+    <MESSAGE value="Applied scrolling and swiping fixes to contact page" />
+    <MESSAGE value="Fleshed out events page" />
+    <MESSAGE value="Finalised events page, with the exception of past events - fill these in!" />
+    <MESSAGE value="Changed event box backgrounds" />
+    <MESSAGE value="Changed profile picture and intro text" />
+    <MESSAGE value="Filled in content for software and events sections" />
+    <MESSAGE value="implemented music coming soon component" />
+    <MESSAGE value="Implemented disappearing tutorial overlay" />
+    <MESSAGE value="Fixed software bug of widening components on mobile devices" />
+    <MESSAGE value="Tutorial overlay now disappeears on touch start" />
+    <MESSAGE value="Removed event manager from home screen" />
+    <MESSAGE value="Updated CV" />
+    <MESSAGE value="Updated CV, removed &quot;Let's Talk&quot; button" />
+    <MESSAGE value="Changed icon" />
+    <MESSAGE value="Added CNAME file" />
+    <MESSAGE value="Updated AYA Nights page" />
+    <MESSAGE value="Updated home page" />
+    <MESSAGE value="Updated music page" />
+    <MESSAGE value="Updated links and CV" />
+    <MESSAGE value="Fixed margins and page scrolling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed margins and page scrolling" />
+
   </component>
 </project>

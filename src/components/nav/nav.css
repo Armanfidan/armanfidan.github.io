@@ -1,32 +1,92 @@
-nav {
-    background: rgba(0, 0, 0, 0.3);
-    width: max-content;
-    padding: 0.7rem 0.8rem;
+.nav-buttons {
     position: fixed;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.nav-button {
+    color: var(--colour-primary);
+    font-weight: 600;
+    position: fixed;
+    z-index: 5;
+    transition: all 0.3s ease;
+    pointer-events: all;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav-button:hover {
+    color: var(--colour-primary-variant);
+}
+.nav-button:active {
+    color: var(--colour-primary-variant);
+}
+
+.nav-button:visited {
+    color: var(--colour-primary);
+}
+
+.nav-button.disabled, .nav-button-disabled {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#next-nav-button-horizontal,
+#prev-nav-button-horizontal {
+    top: 50%;
+    transform: translateY(-50%);
+    flex-direction: row;
+}
+
+#next-nav-button-vertical,
+#prev-nav-button-vertical {
     left: 50%;
     transform: translateX(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
-    z-index: 100;
 }
 
-nav a {
-    background: transparent;
-    padding: 0.9rem;
-    border-radius: 50%;
-    display: flex;
-    color: var(--colour-light);
-    font-size: 1.1rem;
+#prev-nav-button-horizontal {
+    left: var(--button-margin);
+    writing-mode: vertical-rl;
 }
 
-nav a:hover {
-    background: rgba(0, 0, 0, 0.3);
+#next-nav-button-horizontal {
+    right: var(--button-margin);
+    writing-mode: vertical-lr;
 }
 
-nav a.active {
-    background: var(--colour-primary-variant);
-    color: white;
+#prev-nav-button-vertical {
+    top: var(--button-margin);
+}
+
+#next-nav-button-vertical {
+    bottom: var(--button-margin);
+}
+
+#tutorial-overlay {
+    display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    #tutorial-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        vertical-align: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        padding-top: 70%;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(25px);
+        z-index: 100;
+    }
 }

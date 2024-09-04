@@ -1,15 +1,42 @@
 .App {
-  text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.slide-container {
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: var(--colour-bg);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: var(--colour-text);
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-v {
+    z-index: 10;
 }

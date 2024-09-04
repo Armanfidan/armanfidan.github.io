@@ -1,0 +1,51 @@
+#software-container {
+    top: 0;
+    height: calc(100% - 5rem);
+    padding: 2rem 10rem 5rem 10rem;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#home-container::-webkit-scrollbar {
+    display: none;
+}
+
+.project_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#fyp_card {
+    background-image: url("../../../src/assets/snek.png");
+    background-position: -120% 20%;
+    background-size: 80%;
+}
+#hlp_card {
+
+}
+#visuaid_card {
+    background-image: url("../../../src/assets/visuaid.jpeg");
+    background-size: 30%;
+}
+#rover_card {
+    background-image: url("../../../src/assets/rover.jpg");
+    background-size: 30%;
+    background-position: 0 0;
+}
+#malafatus_card {
+    background-image: url("../../../src/assets/malafatus.jpeg");
+    background-size: 30%;
+    background-position: 0 0;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 750px) {
+    #software-container {
+        padding: 2rem 1rem 5rem var(--container-margin);
+    }
+    .education__cards {
+        gap: 1.5rem
+    }
+}
