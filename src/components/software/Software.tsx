@@ -8,6 +8,26 @@ function Software() {
             <h2>Software Projects</h2>
             <div className="project_cards">
                 <CollapsibleCard
+                    id="fx_card" title="Real-Time Forex Trading Bot" date="2024"
+                    subtitle1="Independent"
+                    subtitle2="">
+                    This is a backtesting system and real-time trading bot, retrieving data from and booking orders into an exchange.
+                    It features a backtesting system with two indicators currently built in - Moving Average Crossover and Inside Bar Momentum.
+                    However. it is designed to be easily scalable
+                    to add more indicators in the future. It calculates metrics such as:
+                    <ul>
+                        <li>Return on Investment</li>
+                        <li>Sharpe Ratio</li>
+                        <li>Profit to Drawdown ratio</li>
+                        <li>Total Time in Market</li>
+                    </ul>
+                    It also features a real-time trading bot, which trades based on the given indicators.
+                    I will start live trading as soon as this system is complete!
+                    <br/>
+                    <br/>
+                    <a className="btn" href="https://github.com/Armanfidan/fxbot">GitHub repository</a>
+                </CollapsibleCard>
+                <CollapsibleCard
                     id="fyp_card" title="Dynamic Grasping with a Quadruped Mobile Manipulator" date="2022"
                     subtitle1="Imperial College London, UK"
                     subtitle2="">

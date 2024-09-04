@@ -66,14 +66,20 @@ function Home() {
                 <h1>Glad you're here.<br/>Here's who I am.</h1>
                 <p>
                     Welcome to my personal website!
-                    I’m currently a backend software engineer at UBS.
+                    I’m currently a software engineer at UBS.
                     <br/><br/>
                     Here are some facts about me:
                     <ul>
-                        <li>I'm a backend software engineer with experience working on large-scale trade systems</li>
+                        <li>I'm a software engineer with experience working on large-scale trade systems.</li>
+                        <li>I've worked on large data, such as 10M+ rows of unstructured risk data in Credit Suisse - Python is my strong suit!</li>
+                        <li>I'm extremely interested in statistics and data, building infrastructure and models is a passion! See my forex trading bot</li>
                         <li>I handle uncertainty well (Navigating Credit Suisse in 2023 was an experience!)</li>
-                        <li>I have a passion for bringing people together in places with music by organising large-scale events through UBS and AYA Nights - find out more on the Events page!</li>
-                        <li>I'd say the thing that takes most of my free time is my a passion for music. I love creating and listening to music - don't forget to check out my Music page on this site!</li>
+                        <li>I have a passion for bringing people together in places with music by organising large-scale
+                            events through UBS and AYA Nights - find out more on the Events page!
+                        </li>
+                        <li>I'd say the thing that takes most of my free time is my a passion for music. I love creating
+                            and listening to music - don't forget to check out my Music page on this site!
+                        </li>
                     </ul>
                     To summarise, here’s what I do:
                     Designing and building things. Whether it be software, music or occasions to bring people together on.

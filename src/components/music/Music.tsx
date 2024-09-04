@@ -71,6 +71,7 @@ export default function Music() {
                 </p>
                 <p>
                     This realisation led to me picking up electronic music production.
+                    This year I've made over 10 songs - refer to my SoundCloud for all of them!
                     After months of learning about this incredible and huge discipline, I realised that I could combine
                     it
                     with piano and... a bit of Jazz? Yeah!
@@ -84,16 +85,13 @@ export default function Music() {
             </div>
             <div className="about-container">
                 <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1890234702&color=%23847c71&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                <br/><br/>
+                <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1687220250&color=%23ad8500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
                 <br/><br/>
                 <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
                         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1686982074&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
-                <br/><br/>
-                <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1686750855&color=%2300c5de&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"></iframe>
-                <br/><br/>
-                <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1700074692&color=%233e72c8&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             </div>
         </div>
     );
